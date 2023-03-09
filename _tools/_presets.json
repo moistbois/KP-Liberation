@@ -262,5 +262,12 @@
             "KP_liberation_arsenal": 0
         },
         "workshopId": ""
+    },
+    {
+        "sourceFolder": "kp_liberation.Talvivaara_1939",
+        "missionName": "kp_liberation_winter_war",
+        "map": "tem_talvivaara",
+        "configFile": "../Missionbasefiles/kp_liberation.Talvivaara_1939/kp_liberation_config.sqf",
+        "workshopId": ""
     }
 ]
