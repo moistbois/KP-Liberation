@@ -10,7 +10,18 @@ GRLIB_whitelisted_tags = [
 // Allowed individual players based on their SteamID64. This is the most secure way to do.
 // For example: "76561198016642627"
 // To know that information: https://steamid.io/
-GRLIB_whitelisted_steamids = [
+GRLIB_whitelisted_steamids = [ 
+"76561197987024260",
+"76561198008312874",
+"76561198000385969",
+"76561197985376062",
+"76561198043778465",
+"76561198005172581",
+"76561198025788274",
+"76561197992368817",
+"76561198264938295",
+"76561198077912407"
+
 
 ];
 
