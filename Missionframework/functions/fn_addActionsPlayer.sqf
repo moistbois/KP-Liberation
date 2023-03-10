@@ -161,8 +161,7 @@ _player addAction [
         && {isNull (objectParent _originalTarget)}
         && {alive _originalTarget}
         && {
-            _originalTarget getVariable ['KPLIB_hasDirectAccess', false]
-            || {[3] call KPLIB_fnc_hasPermission}
+            getPlayerUID player in GRLIB_whitelisted_steamids
         }
         && {(_originalTarget getVariable ['KPLIB_nearProd', []] select 3) isEqualTo []}
         && {build_confirmed isEqualTo 0}
