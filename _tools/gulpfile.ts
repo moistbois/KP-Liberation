@@ -48,26 +48,26 @@ for (let preset of presets) {
 
         /** Copy mission.sqm to output dir */
         function missionSqmCopy () {
-            return gulp.src(mission.getMissionSqmPath())
+            return gulp.src(mission.getMissionFilesPath().concat('/**/*'))
                 .pipe(gulp.dest(mission.getOutputDir()));
         },
 
-        /** Replace variables values in configuration file */
-        function configReplace () {
-            let src = gulp.src(mission.getMissionConfigFilePath());
+        // /** Replace variables values in configuration file */
+        // function configReplace () {
+        //     let src = gulp.src(mission.getMissionConfigFilePath());
 
-            const variables = Object.getOwnPropertyNames(preset.variables);
-            for (let variable of variables) {
-                // https://regex101.com/r/YknC8r/1
-                const regex = new RegExp(`(${variable} += +)(?:\\d+|".+")`, 'ig');
-                const value = JSON.stringify(preset.variables[variable]);
+        //     const variables = Object.getOwnPropertyNames(preset.variables);
+        //     for (let variable of variables) {
+        //         // https://regex101.com/r/YknC8r/1
+        //         const regex = new RegExp(`(${variable} += +)(?:\\d+|".+")`, 'ig');
+        //         const value = JSON.stringify(preset.variables[variable]);
 
-                // replace variable value
-                src = src.pipe(gulpReplace(regex, `$1${value}`));
-            }
+        //         // replace variable value
+        //         src = src.pipe(gulpReplace(regex, `$1${value}`));
+        //     }
 
-            return src.pipe(gulp.dest(mission.getOutputDir()));
-        },
+        //     return src.pipe(gulp.dest(mission.getOutputDir()));
+        // },
 
         /** Replace values in stringtable */
         function stringTableReplace () {

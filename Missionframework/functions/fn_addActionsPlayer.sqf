@@ -80,24 +80,6 @@ _player addAction [
     "
 ];
 
-// Squad management
-_player addAction [
-    ["<t color='#80FF80'>", localize "STR_SQUAD_MANAGEMENT_ACTION", "</t><img size='2' image='\a3\Ui_F_Curator\Data\Displays\RscDisplayCurator\modeGroups_ca.paa'/>"] joinString "",
-    "scripts\client\ui\squad_management.sqf",
-    nil,
-    -730,
-    false,
-    true,
-    "",
-    "
-        isNull (objectParent _originalTarget)
-        && {alive _originalTarget}
-        && {!((units group _originalTarget) isEqualTo [_originalTarget])}
-        && {(leader group _originalTarget) isEqualTo _originalTarget}
-        && {build_confirmed isEqualTo 0}
-    "
-];
-
 // Arsenal
 _player addAction [
     ["<t color='#FFFF00'>", localize "STR_ARSENAL_ACTION", "</t><img size='2' image='res\ui_arsenal.paa'/>"] joinString "",
@@ -179,8 +161,7 @@ _player addAction [
         && {isNull (objectParent _originalTarget)}
         && {alive _originalTarget}
         && {
-            _originalTarget getVariable ['KPLIB_hasDirectAccess', false]
-            || {[3] call KPLIB_fnc_hasPermission}
+            getPlayerUID player in GRLIB_whitelisted_steamids
         }
         && {(_originalTarget getVariable ['KPLIB_nearProd', []] select 3) isEqualTo []}
         && {build_confirmed isEqualTo 0}
@@ -282,7 +263,7 @@ _player addAction [
     true,
     "",
     "
-        _originalTarget getVariable ['KPLIB_hasDirectAccess', false]
+        getPlayerUID player in GRLIB_whitelisted_steamids
         && {isNull (objectParent _originalTarget)}
         && {alive _originalTarget}
         && {!(KP_liberation_production isEqualTo [])}
