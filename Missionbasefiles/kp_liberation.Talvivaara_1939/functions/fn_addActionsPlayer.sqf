@@ -264,7 +264,7 @@ _player addAction [
     true,
     "",
     "
-        _originalTarget getVariable ['KPLIB_hasDirectAccess', false]
+        getPlayerUID player in GRLIB_whitelisted_steamids
         && {isNull (objectParent _originalTarget)}
         && {alive _originalTarget}
         && {!(KP_liberation_production isEqualTo [])}
