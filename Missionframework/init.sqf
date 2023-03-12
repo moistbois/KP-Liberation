@@ -62,3 +62,5 @@ if (isServer) then {
     KPLIB_initServer = true;
     publicVariable "KPLIB_initServer";
 };
+
+setTerrainGrid 25;
