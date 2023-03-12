@@ -52,25 +52,30 @@ for (let preset of presets) {
                 .pipe(gulp.dest(mission.getOutputDir()));
         },
 
-        // /** Replace variables values in configuration file */
-        // function configReplace () {
-        //     let src = gulp.src(mission.getMissionConfigFilePath());
+        /** Replace variables values in configuration file */
+        function configReplace() {
+            if (!!preset.configFile) {
+                let src = gulp.src(mission.getMissionConfigFilePath());
 
-        //     const variables = Object.getOwnPropertyNames(preset.variables);
-        //     for (let variable of variables) {
-        //         // https://regex101.com/r/YknC8r/1
-        //         const regex = new RegExp(`(${variable} += +)(?:\\d+|".+")`, 'ig');
-        //         const value = JSON.stringify(preset.variables[variable]);
+                const variables = Object.getOwnPropertyNames(preset.variables);
+                for (let variable of variables) {
+                    // https://regex101.com/r/YknC8r/1
+                    const regex = new RegExp(`(${variable} += +)(?:\\d+|".+")`, 'ig');
+                    const value = JSON.stringify(preset.variables[variable]);
 
-        //         // replace variable value
-        //         src = src.pipe(gulpReplace(regex, `$1${value}`));
-        //     }
-
-        //     return src.pipe(gulp.dest(mission.getOutputDir()));
-        // },
+                    // replace variable value
+                    src = src.pipe(gulpReplace(regex, `$1${value}`));
+                }
+                return src.pipe(gulp.dest(mission.getOutputDir()));
+            }
+            else
+            {
+                return Promise.resolve('NOP');
+            }
+        },
 
         /** Replace values in stringtable */
-        function stringTableReplace () {
+        function stringTableReplace() {
             // I know, replacing XML with regex... :|
             // https://regex101.com/r/TSfish/2
             const versionRegex = /(<Key ID="STR_MISSION_VERSION">\s*<Original>)(?<version>.+)(<\/Original>)/;
@@ -90,7 +95,7 @@ for (let preset of presets) {
                     return content.replace(nameRegex, `$1CTI 34 KP Liberation ${preset.mapDisplay || preset.map} ${version}$3`);
                 }))
                 .pipe(gulp.dest(mission.getOutputDir(), { overwrite: true, }))
-            ;
+                ;
         }
     ));
 
