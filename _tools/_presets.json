@@ -32,5 +32,11 @@
         "missionName": "kp_liberation_winter_war",
         "map": "tem_talvivaara",
         "workshopId": ""
+    },
+    {
+        "sourceFolder": "kp_liberation_devkit.VR",
+        "missionName": "kp_liberation_devkit",
+        "map": "chongo",
+        "workshopId": ""
     }
 ]
