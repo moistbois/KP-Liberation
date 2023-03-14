@@ -17,3 +17,7 @@
 - [ ] set objects
 - [ ] create radio playlist
 - [ ] create mod preset for users
+> Balancing
+- [ ] set 0 chance of civlians injured spawning
+- [ ] set sector capture popularity boost to miniscule
+- [ ] set building destruction penalty to damaged
