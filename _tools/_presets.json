@@ -34,9 +34,23 @@
         "workshopId": ""
     },
     {
+        "sourceFolder": "kp_liberation.Chongo",
+        "missionName": "kp_liberation_Chongo",
+        "map": "Chongo",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 8,
+            "KP_liberation_preset_opfor": 2,
+            "KP_liberation_preset_resistance": 2,
+            "KP_liberation_preset_civilians": 1,
+            "KP_liberation_arsenal": 17
+        },
+        "workshopId": ""        
+    },
+    {
         "sourceFolder": "kp_liberation_devkit.VR",
         "missionName": "kp_liberation_devkit",
-        "map": "chongo",
+        "map": "VR",
         "workshopId": ""
     }
 ]

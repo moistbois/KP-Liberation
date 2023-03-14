@@ -175,7 +175,8 @@ KP_liberation_preset_civilians = 0;
 13 = CSAT Hex arsenal preset
 14 = CSAT Green Hex arsenal preset
 15 = AAF arsenal preset
-16 = LDF arsenal preset */
+16 = LDF arsenal preset 
+17 = Central africa (para) military*/
 KP_liberation_arsenal = 0;
 
 /* - Fuel consumption settings.
