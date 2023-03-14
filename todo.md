@@ -9,6 +9,7 @@
 - [✔️] add lights to checkpoint alex
 - [✔️] add capture south of swagga airport by fuel station. not covered by swagga radius
 - [ ] distribute things according to map. 5 factories, 5 capitals, 12 radio towers, 9 military bases, 13 small cities.
+- [ ] - hook cellphone into init.sqf
 - [ ] set arsenals
 - [ ] set build menu
 - [ ] set objects
