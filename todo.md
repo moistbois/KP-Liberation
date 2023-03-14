@@ -11,4 +11,6 @@
 - [ ] distribute things according to map. 5 factories, 5 capitals, 12 radio towers, 9 military bases, 13 small cities.
 - [ ] set arsenals
 - [ ] set build menu
-- [ ] set objecs
+- [ ] set objects
+- [ ] create radio playlist
+- [ ] create mod preset for users
