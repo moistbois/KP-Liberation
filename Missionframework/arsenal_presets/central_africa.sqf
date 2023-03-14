@@ -51,13 +51,18 @@ GRLIB_arsenal_magazines = [
 	"rhs_100Rnd_762x54mmR_7N13",
 	"rhs_100Rnd_762x54mmR_7N26",
 	//L1A1
-	"rhs_mag_20Rnd_762x51)m61_fnfal",
-	"rhs_mag_20Rnd_762x51)m62_fnfal",
-	"rhs_mag_20Rnd_762x51)m80_fnfal",
-	"rhs_mag_20Rnd_762x51)m80a1_fnfal",
+	"rhs_mag_20Rnd_762x51_m61_fnfal",
+	"rhs_mag_20Rnd_762x51_m62_fnfal",
+	"rhs_mag_20Rnd_762x51_m80_fnfal",
+	"rhs_mag_20Rnd_762x51_m80a1_fnfal",
 
 	//Makarov
-	"rhs_mag_9x18_0_57N181S"
+	"rhs_mag_9x18_0_57N181S",
+
+	//Cancer
+	"murshun_cigs_matches",
+	"murshun_cigs_lighter",
+	"murshun_cigs_cigpack"
 ];
 
 GRLIB_arsenal_items = [
@@ -125,37 +130,6 @@ GRLIB_arsenal_items = [
 	"rhsgref_uniform_ERDL",
 	"rhsgref_uniform_flecktarn",
 	"rhsgref_uniform_flecktarn_full",
-// Backpacks
-	"B_AssaultPack_blk",
-	"B_AssaultPack_cbr",
-	"B_AssaultPack_dgtl",
-	"B_AssaultPack_rgr",
-	"B_AssaultPack_ocamo",
-	"B_AssaultPack_khk",
-	"B_AssaultPack_mcamo",
-	"B_AssaultPack_sgg",
-	"B_Carryall_blk",
-	"B_Carryall_cbr",
-	"B_Carryall_oli",
-	"B_Carryall_ocamo",
-	"B_Carryall_khk",
-	"B_Carryall_mcamo",
-	"B_Carryall_oucamo",
-	"B_FieldPack_blk",
-	"B_FieldPack_cbr",
-	"B_FieldPack_ocamo",
-	"B_FieldPack_khk",
-	"B_FieldPack_oli",
-	"B_FieldPack_oucamo",
-	"rhs_rk_sht_30_olive",
-	"rhs_rpg_empty",
-	"rhs_rpg_2",
-	"rhs_rpg_6b2",
-	"rhs_rpg_6b3",
-	"rhs_sidor",
-	"rhs_tortila_black",
-	"rhs_tortila_emr",
-	"B_UAV_01_backpack_F",
 // Vests
 	"V_Pocketed_black_F",
 	"V_Pocketed_coyote_F",
@@ -178,7 +152,6 @@ GRLIB_arsenal_items = [
 	"rhs_chicom",
 	"rhs_chicom_khk",
 	"rhsgref_chicom",
-
 // Facewear:
 	"G_Aviator",
 	"G_Balaclava_blk",
@@ -243,7 +216,70 @@ GRLIB_arsenal_items = [
 	"ItemWatch",
 	"ACE_Altimeter",
 	"TFAR_microdagr",
-
+// ACE items
+	"ACE_CableTie",
+	"ACE_DefusalKit",
+	"ACE_EarPlugs",
+	"ACE_wirecutter",
+	"ACE_MapTools",
+	"ACE_fieldDressing",
+	"ACE_bloodIV",
+	"ACE_bloodIV_250",
+	"ACE_bloodIV_500",
+	"ACE_bodyBag",
+	"ACE_epinephrine",
+	"ACE_morphine",
+	"ACE_personalAidKit",
+	"ACE_Sandbag_empty",
+	"ACE_Flashlight_XL50",
+	"ACE_tourniquet",
+	"ACE_SpareBarrel",
+	"ACE_EntrenchingTool",
+	"ACE_rope12", 
+	"ACE_rope15",
+	"ACE_rope18",
+	"ACE_rope27",
+	"ACE_rope36",
+	"ACE_LIB_FireCord",
+	"ACE_elasticBandage",
+	"ACE_packingBandage",
+	"ACE_quikclot",
+	"ACE_splint",
+	"ACE_surgicalKit",
 // Weapon addons
 	"rhsgref_acc_falmuzzle_l1a1"
+];
+
+GRLIB_arsenal_backpacks = [
+// Backpacks
+	"B_AssaultPack_blk",
+	"B_AssaultPack_cbr",
+	"B_AssaultPack_dgtl",
+	"B_AssaultPack_rgr",
+	"B_AssaultPack_ocamo",
+	"B_AssaultPack_khk",
+	"B_AssaultPack_mcamo",
+	"B_AssaultPack_sgg",
+	"B_Carryall_blk",
+	"B_Carryall_cbr",
+	"B_Carryall_oli",
+	"B_Carryall_ocamo",
+	"B_Carryall_khk",
+	"B_Carryall_mcamo",
+	"B_Carryall_oucamo",
+	"B_FieldPack_blk",
+	"B_FieldPack_cbr",
+	"B_FieldPack_ocamo",
+	"B_FieldPack_khk",
+	"B_FieldPack_oli",
+	"B_FieldPack_oucamo",
+	"rhs_rk_sht_30_olive",
+	"rhs_rpg_empty",
+	"rhs_rpg_2",
+	"rhs_rpg_6b2",
+	"rhs_rpg_6b3",
+	"rhs_sidor",
+	"rhs_tortila_black",
+	"rhs_tortila_emr",
+	"B_UAV_01_backpack_F"
 ];
