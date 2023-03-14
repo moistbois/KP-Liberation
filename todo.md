@@ -6,3 +6,4 @@
 - [ ] change ambient temp on the map
 - [✔️] add lights to checkpoint alex
 - [ ] add base south of swagga airport by fuel station. not covered by swagga radius
+- [ ] arsenal
