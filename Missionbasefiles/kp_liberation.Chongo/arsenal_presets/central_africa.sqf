@@ -4,9 +4,61 @@
     Last Update: 2023-03-14
     License: MIT License - http://www.opensource.org/licenses/MIT
 */
-GRLIB_arsenal_weapons = [];
+GRLIB_arsenal_weapons = [
+	"rhs_weap_akm",
+	"rhs_weap_akm_gp25",
+	"rhs_weap_akms",
+	"rhs_weap_akms_gp25",
+	"rhs_weap_aks74u",
+	"rhs_weap_m92",
+	"rhs_weap_pkm",
+	"rhs_weap_l1a1",
+	"rhs_weap_l1a1_wood",
 
-GRLIB_arsenal_magazines = [];
+	//Handguns
+	"ACE_Flashlight_Maglite_ML300L",
+	"rhs_weap_makarov_pm"
+];
+
+GRLIB_arsenal_magazines = [
+	//AKM
+	"rhs_30Rnd_762x39mm_bakelite",
+	"rhs_30Rnd_762x39mm_bakelite_tracer",
+	"rhs_30Rnd_762x39mm",
+	"rhs_30Rnd_762x39mm_tracer",
+	//GP25
+	"rhs_GRM40",
+	"rhs_GRD40_Green",
+	"rhs_GRD40_Red",
+	"rhs_GRD40_White",
+	"rhs_VG40MD",
+	"rhs_VG400P_green",
+	"rhs_VG400P_red",
+	"rhs_VG400P_white",
+	"rhs_VG40SZ",
+	"rhs_VOG25",
+	"rhs_VOG25P",
+	//AKS74U
+	"rhs_30Rnd_545x39_7N6M_AK",
+	"rhs_30Rnd_545x39_AK_green",
+	//M92
+	"rhssaf_30Rnd_762x39mm_M67",
+	"rhssaf_30Rnd_762x39mm_M78_tracer",
+	//PKM
+	"rhs_100Rnd_762x54mmR_green",
+	"rhs_100Rnd_762x54mmR",
+	"rhs_100Rnd_762x54mmR_7BZ3",
+	"rhs_100Rnd_762x54mmR_7N13",
+	"rhs_100Rnd_762x54mmR_7N26",
+	//L1A1
+	"rhs_mag_20Rnd_762x51)m61_fnfal",
+	"rhs_mag_20Rnd_762x51)m62_fnfal",
+	"rhs_mag_20Rnd_762x51)m80_fnfal",
+	"rhs_mag_20Rnd_762x51)m80a1_fnfal",
+
+	//Makarov
+	"rhs_mag_9x18_0_57N181S"
+];
 
 GRLIB_arsenal_items = [
 // Headgear
@@ -39,6 +91,40 @@ GRLIB_arsenal_items = [
 	"LOP_H_SSh68Helmet_BLK",
 	"LOP_H_SSh68Helmet_wz93",
 	"LOP_H_6B27M_ess_wz93",
+// Uniforms
+	"LOP_U_CHR_Citizen_05",
+	"LOP_U_IRA_Fatigue_GRK_DPM",
+	"LOP_U_BH_Fatigue_FWDL_CHOCO",
+	"LOP_U_BH_Fatigue_FWDL_M81",
+	"LOP_U_BH_Fatigue_GUE_FWDL",
+	"LOP_U_IRA_Fatigue_HTR_DPM_J",
+	"LOP_U_IRA_Fatigue_HTR_DPM",
+	"LOP_U_BH_Fatigue_M81_CHOCO",
+	"LOP_U_BH_Fatigue_M81_FWDL",
+	"LOP_U_BH_Fatigue_M81_LIZ",
+	"LOP_U_BH_Fatigue_M81",
+	"LOP_U_UA_Fatigue_03",
+	"LOP_U_BH_Fatigue_GUE_M81_OLV",
+	"LOP_U_AFR_Fatigue_01",
+	"LOP_U_AFR_Fatigue_03",
+	"LOP_U_NAPA_Fatigue_04",
+	"LOP_U_TKA_Fatigue_02",
+	"LOP_U_TKA_Fatigue_01",
+	"LOP_U_PMC_Fatigue_04",
+	"LOP_U_PMC_Fatigue_02",
+	"rhs_uniform_afghanka",
+	"rhs_uniform_afghanka_moldovan_ttsko_desat",
+	"rhs_uniform_afghanka_ttsko",
+	"rhs_uniform_afghanka_wdl",
+	"rhs_uniform_mflora_patchless",
+	"rhsgref_uniform_TLA_1",
+	"rhsgref_uniform_TLA_2",
+	"rhsgref_uniform_para_ttsko_oxblood",
+	"rhsgref_uniform_ttsko_mountain",
+	"rhsgref_uniform_alpenflage",
+	"rhsgref_uniform_ERDL",
+	"rhsgref_uniform_flecktarn",
+	"rhsgref_uniform_flecktarn_full",
 // Backpacks
 	"B_AssaultPack_blk",
 	"B_AssaultPack_cbr",
@@ -93,4 +179,71 @@ GRLIB_arsenal_items = [
 	"rhs_chicom_khk",
 	"rhsgref_chicom",
 
+// Facewear:
+	"G_Aviator",
+	"G_Balaclava_blk",
+	"G_Balaclava_combat",
+	"G_Balaclava_lowprofile",
+	"G_Balaclava_oli",
+	"G_Bandanna_aviator",
+	"G_Bandanna_beast",
+	"G_Bandanna_blk",
+	"G_Bandanna_khk",
+	"G_Bandanna_oli",
+	"G_Bandanna_tan",
+	"G_Lady_Blue",
+	"G_Shades_Black",
+	"G_Shades_Blue",
+	"G_Shades_Green",
+	"G_Shades_Red",
+	"G_Spectacles",
+	"G_Sport_Red",
+	"G_Sport_Blackyellow",
+	"G_Sport_BlackWhite",
+	"G_Sport_Checkered",
+	"G_Sport_Blackred",
+	"G_Sport_Greenblack",
+	"G_Squares_Tinted",
+	"G_Squares",
+	"G_Spectacles_Tinted",
+	"immersion_cigs_cigar0",
+	"murshun_cigs_cig0",
+	"immersion_pops_pop0",
+	"rhs_balaclava",
+	"rhs_balaclava1_olive",
+	"rhs_scarf",
+	"rhssaf_veil_Green",
+	"rhsusf_shemagh_grn",
+	"rhsusf_shemagh2_grn",
+	"rhsusf_shemagh_od",
+	"rhsusf_shemagh2_od",
+	"rhsusf_shemagh_tan",
+	"rhsusf_shemagh2_tan",
+// Binoculars
+	"Binocular",
+	"Laserdesignator",
+	"Rangefinder",
+	"ace_dragon_sight",
+	"ACE_VectorDay",
+	"ACE_Vector",
+	"rhs_pdu4",
+	"rhs_tr8_periscope",
+	"rhs_tr8_periscope_pip",
+	"rhssaf_zrak_rd7j",
+// Extra
+	"ItemMap",
+	"ItemGPS",
+	"O_UavTerminal",
+	"TFAR_anprc152",
+	"TFAR_anprc154",
+	"TFAR_anprc148jem",
+	"TFAR_FADAK",
+	"TFAR_pnr1000a",
+	"ItemCompass",
+	"ItemWatch",
+	"ACE_Altimeter",
+	"TFAR_microdagr",
+
+// Weapon addons
+	"rhsgref_acc_falmuzzle_l1a1"
 ];
