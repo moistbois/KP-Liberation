@@ -80,7 +80,7 @@ light_vehicles = [
     ["rhs_pts_vmf",125,0,100],                                          // PTS
     ["rhs_gaz66_zu23_vdv",105,70,65],                                   // GAZ-66 (ZU-23)
     ["O_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
-    ["rhs_bmk_t",200,80,75],                            // BMK tug
+    ["rhs_bmk_t",200,80,75]                            // BMK tug
 ];
 
 heavy_vehicles = [
