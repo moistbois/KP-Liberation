@@ -20,21 +20,12 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_pkm",
 	"rhs_weap_l1a1",
 	"rhs_weap_l1a1_wood",
-	"sp_fwa_fal_m2",
-	"sp_fwa_fal_bgs_a",
-	"sp_fwa_fal_bgs_b",
-	"sp_fwa_fal_dutch",
-	"sp_fwa_falo_factory_50_42_bipod",
-	"sp_fwa_fal_factory_50_00",
-	"sp_fwa_fal_stg58_fn",
-	"sp_fwa_mag58",
 	"rhs_weap_fnmag",
 	"rhs_weap_rpk74m",
 	
 	//Handguns
 	"ACE_Flashlight_Maglite_ML300L",
 	"rhs_weap_makarov_pm",
-	"sp_fwa_l9a1_hipower_wood",
 	"rhsusf_weap_glock17g4",
 	"rhs_weap_rsp30_white",
 	"rhs_weap_rsp30_green",
@@ -78,31 +69,14 @@ GRLIB_arsenal_magazines = [
 	"rhs_100Rnd_762x54mmR_7N13",
 	"rhs_100Rnd_762x54mmR_7N26",
 	//L1A1
-	"sp_fwa_20Rnd_762_FAL_Metric",
-	"sp_fwa_20Rnd_762_FAL_Metric_Ball",
-	"sp_fwa_20Rnd_762_FAL_Metric_Tracer",
-	"sp_fwa_30Rnd_Straight_762_FAL_Metric",
-	"sp_fwa_30Rnd_Straight_762_FAL_Metric_Ball",
-	"sp_fwa_30Rnd_Straight_762_FAL_Metric_Tracer",
-	//FAL rifle grenades
-	"sp_fwa_1rnd_riflegrenade_energa_at",
-    "sp_fwa_1rnd_riflegrenade_mas_ap",
-    "sp_fwa_1rnd_riflegrenade_mas_wp",
-    "sp_fwa_1rnd_riflegrenade_mas_flare",
+	"rhs_mag_20Rnd_762x51_m62_fnfal",
+	"rhs_mag_20Rnd_762x51_m80_fnfal",
 	//FN MAG
-	"sp_fwa_50Rnd_762_mag",
-	"sp_fwa_50Rnd_762_mag_ball",
-	"sp_fwa_50Rnd_762_mag_turret",
-	"sp_fwa_150Rnd_762_mag",
-	"sp_fwa_150Rnd_762_mag_ball",
-	"sp_fwa_150Rnd_762_mag_turret",
-	"sp_fwa_200Rnd_762_mag",
-	"sp_fwa_200Rnd_762_mag_ball",
-	"sp_fwa_200Rnd_762_mag_turret",
+	"rhsusf_100Rnd_762x51_m62_tracer",
+	"rhsusf_100Rnd_762x51",
 
 	//Handguns
 	"rhs_mag_9x18_0_57N181S",
-	"sp_fwa_13Rnd_9mm_HiPower",
 	"rhsusf_mag_17Rnd_9x19_JHP",
 	"rhsusf_mag_17Rnd_9x19_FMJ",
 
@@ -308,10 +282,6 @@ GRLIB_arsenal_items = [
     "rhs_acc_dtk2",
     "rhs_acc_dtk3",
     "rhs_acc_2dpzenit",
-	"sp_fwa_scope_fal_fn_factory",
-    "sp_fwa_scope_eltro_b8v_ir_scope",
-    "sp_fwa_illuminator_eltro_b8v_ir",
-	"sp_fwa_acc_machinegun_linkhide",
 	"rhsgref_acc_zendl"
 ];
 
