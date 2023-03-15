@@ -300,6 +300,7 @@ GRLIB_arsenal_items = [
 	"ACE_quikclot",
 	"ACE_splint",
 	"ACE_surgicalKit",
+	"SOL_Phone",
 // Weapon addons
 	"rhsgref_acc_falmuzzle_l1a1",
 	"rhs_acc_dtk",
