@@ -1,7 +1,7 @@
 /*
     File: central_africa.sqf
     Date: 2023-03-14
-    Last Update: 2023-03-14
+    Last Update: 2023-03-15
     License: MIT License - http://www.opensource.org/licenses/MIT
 */
 GRLIB_arsenal_weapons = [
@@ -9,15 +9,36 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_akm_gp25",
 	"rhs_weap_akms",
 	"rhs_weap_akms_gp25",
+	"rhs_weap_ak74",
+	"rhs_weap_aks74",
 	"rhs_weap_aks74u",
+	"rhs_weap_savz58p",
+	"rhs_weap_savz58p_black",
+	"rhs_weap_savz58v",
+	"rhs_weap_savz58v_black",
 	"rhs_weap_m92",
 	"rhs_weap_pkm",
 	"rhs_weap_l1a1",
 	"rhs_weap_l1a1_wood",
-
+	"sp_fwa_fal_m2",
+	"sp_fwa_fal_bgs_a",
+	"sp_fwa_fal_bgs_b",
+	"sp_fwa_fal_dutch",
+	"sp_fwa_falo_factory_50_42_bipod",
+	"sp_fwa_fal_factory_50_00",
+	"sp_fwa_fal_stg58_fn",
+	"sp_fwa_mag58",
+	"rhs_weap_fnmag",
+	"rhs_weap_rpk74m",
+	
 	//Handguns
 	"ACE_Flashlight_Maglite_ML300L",
-	"rhs_weap_makarov_pm"
+	"rhs_weap_makarov_pm",
+	"sp_fwa_l9a1_hipower_wood",
+	"rhsusf_weap_glock17g4",
+	"rhs_weap_rsp30_white",
+	"rhs_weap_rsp30_green",
+	"rhs_weap_rsp30_red"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -38,12 +59,18 @@ GRLIB_arsenal_magazines = [
 	"rhs_VG40SZ",
 	"rhs_VOG25",
 	"rhs_VOG25P",
-	//AKS74U
+	//AK74
 	"rhs_30Rnd_545x39_7N6M_AK",
 	"rhs_30Rnd_545x39_AK_green",
+	"rhs_45Rnd_545X39_7N6_AK",
+	"rhs_45Rnd_545X39_7N6M_AK",
+	"rhs_45Rnd_545X39_AK_Green",
 	//M92
 	"rhssaf_30Rnd_762x39mm_M67",
 	"rhssaf_30Rnd_762x39mm_M78_tracer",
+	//Savz58
+	"rhs_30Rnd_762x39mm_Savz58",
+	"rhs_30Rnd_762x39mm_Savz58_tracer",
 	//PKM
 	"rhs_100Rnd_762x54mmR_green",
 	"rhs_100Rnd_762x54mmR",
@@ -51,13 +78,40 @@ GRLIB_arsenal_magazines = [
 	"rhs_100Rnd_762x54mmR_7N13",
 	"rhs_100Rnd_762x54mmR_7N26",
 	//L1A1
-	"rhs_mag_20Rnd_762x51_m61_fnfal",
-	"rhs_mag_20Rnd_762x51_m62_fnfal",
-	"rhs_mag_20Rnd_762x51_m80_fnfal",
-	"rhs_mag_20Rnd_762x51_m80a1_fnfal",
+	"sp_fwa_20Rnd_762_FAL_Metric",
+	"sp_fwa_20Rnd_762_FAL_Metric_Ball",
+	"sp_fwa_20Rnd_762_FAL_Metric_Tracer",
+	"sp_fwa_30Rnd_Straight_762_FAL_Metric",
+	"sp_fwa_30Rnd_Straight_762_FAL_Metric_Ball",
+	"sp_fwa_30Rnd_Straight_762_FAL_Metric_Tracer",
+	//FAL rifle grenades
+	"sp_fwa_1rnd_riflegrenade_energa_at",
+    "sp_fwa_1rnd_riflegrenade_mas_ap",
+    "sp_fwa_1rnd_riflegrenade_mas_wp",
+    "sp_fwa_1rnd_riflegrenade_mas_flare",
+	//FN MAG
+	"sp_fwa_50Rnd_762_mag",
+	"sp_fwa_50Rnd_762_mag_ball",
+	"sp_fwa_50Rnd_762_mag_turret",
+	"sp_fwa_150Rnd_762_mag",
+	"sp_fwa_150Rnd_762_mag_ball",
+	"sp_fwa_150Rnd_762_mag_turret",
+	"sp_fwa_200Rnd_762_mag",
+	"sp_fwa_200Rnd_762_mag_ball",
+	"sp_fwa_200Rnd_762_mag_turret",
 
-	//Makarov
+	//Handguns
 	"rhs_mag_9x18_0_57N181S",
+	"sp_fwa_13Rnd_9mm_HiPower",
+	"rhsusf_mag_17Rnd_9x19_JHP",
+	"rhsusf_mag_17Rnd_9x19_FMJ",
+
+	//Grenades
+	"rhs_mag_nspd",
+	"rhs_mag_rgd2_white",
+	"rhs_mag_rgn",
+	"rhs_mag_rgo",
+	"rhs_mag_f1",
 
 	//Cancer
 	"murshun_cigs_matches",
@@ -247,7 +301,17 @@ GRLIB_arsenal_items = [
 	"ACE_splint",
 	"ACE_surgicalKit",
 // Weapon addons
-	"rhsgref_acc_falmuzzle_l1a1"
+	"rhsgref_acc_falmuzzle_l1a1",
+	"rhs_acc_dtk",
+    "rhs_acc_dtk1",
+    "rhs_acc_dtk2",
+    "rhs_acc_dtk3",
+    "rhs_acc_2dpzenit",
+	"sp_fwa_scope_fal_fn_factory",
+    "sp_fwa_scope_eltro_b8v_ir_scope",
+    "sp_fwa_illuminator_eltro_b8v_ir",
+	"sp_fwa_acc_machinegun_linkhide",
+	"rhsgref_acc_zendl"
 ];
 
 GRLIB_arsenal_backpacks = [
