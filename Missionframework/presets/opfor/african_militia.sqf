@@ -77,7 +77,7 @@ opfor_vehicles = [
     "LOP_AFR_OPF_T55",                                                 // T55A
     "LOP_AFR_OPF_T55",                                                 // T55A
     "LOP_AFR_OPF_T72BA",                                               // T72B
-    "LOP_AFR_OPF_T72BA",                                               // T72B
+    "LOP_AFR_OPF_T72BB",                                               // T72B
     "rhsgref_ins_zsu234"                                               // ZSU-23-4V // TODO adding one from ChDKZ so that they have any AA
 ];
 
@@ -104,7 +104,7 @@ opfor_battlegroup_vehicles = [
     "LOP_AFR_OPF_T55",                                                 // T55A
     "LOP_AFR_OPF_T55",                                                 // T55A
     "LOP_AFR_OPF_T72BA",                                               // T72B
-    "LOP_AFR_OPF_T72BA",                                               // T72B
+    "LOP_AFR_OPF_T72BB",                                               // T72B
     "rhsgref_ins_zsu234",                                              // ZSU-23-4V //TODO as above
     "rhsgref_ins_zsu234",                                              // ZSU-23-4V //TODO as above
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo) //TODO slightly changed Takistani helis (from isis templaye still)
