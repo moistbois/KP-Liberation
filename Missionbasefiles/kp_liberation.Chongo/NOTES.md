@@ -1,21 +1,50 @@
 
 ## RESEARCH: Weapons that are confirmed
-Sources: [Wikipedia](https://en.wikipedia.org/wiki/List_of_equipment_of_the_Land_Forces_of_the_Democratic_Republic_of_the_Congo), [Onyx](https://www.oryxspioenkop.com/2021/06/welcome-to-jungle-ukrainian-t-64b1m.html)
+Sources:
+1. [Wikipedia](https://en.wikipedia.org/wiki/List_of_equipment_of_the_Land_Forces_of_the_Democratic_Republic_of_the_Congo)
+2. [Onyx](https://www.oryxspioenkop.com/2021/06/welcome-to-jungle-ukrainian-t-64b1m.html)
+3. [sth about burundi](https://www.smallarmssurvey.org/sites/default/files/resources/Small-Arms-Survey-2007-Chapter-06-EN.pdf)
 ####	Small Arms:
  - Browning HP - 7.65×21mm
-	 - Missing
+	 - FreeWorld Armoury
+ - Glock 17
+ - Makarov (done)
+ - Tokarev
+ - Mauser HSc
+ 
  - AKM - 7.62x39mm
 	 - rhs_weap_akm
 	 - rhs_weap_akm_gp25
- - Type 56 - 7.62x39mm
-	 - Missing
- - Zastava M92 - 7.62x39mm
-	 - rhs_weap_m92
+ - ASKU-74
+ - Dragunov SVD
+ - AK-47
+ - AK-74
+ - SKS
+ - CZ58
+ - FN FAL
+ - M4
+ - M16
+ - R1
+ - R4
+ - R5
+
+ - Mp-9
+ - Uzi
+
+ - FN MAG
+ - FN Minimi
+ - SG43
+ - RPK
  - RPD - 7.62x39mm
 	 - Missing
  - PKM - 7.62x54mmR
 	 - rhs_weap_pkm
-
+ 
+ - Type 56 - 7.62x39mm
+	 - Missing
+ - Zastava M92 - 7.62x39mm
+	 - rhs_weap_m92
+ 
 #### Anti-tank and missile:
 ##### RPGs:
  - Type 69 RPG - 40mm (Rocket-propelled grenade)
