@@ -211,16 +211,16 @@ GRLIB_secondary_objective_impact = 0.6;                                 // The p
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 30;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 1000;                                               // Range to activate a sector.
+GRLIB_sector_size = 750;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
-GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
+GRLIB_defended_buildingpos_part = 0.0;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 1200;                                       // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
-GRLIB_surrender_chance = 80;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
+GRLIB_surrender_chance = 50;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
 
 GRLIB_civilians_amount = 10;                                            // Civilian count multiplier.
-GRLIB_cleanup_delay = 1200;                                             // Time in seconds until bodies of dead soldiers are cleaned up.
+GRLIB_cleanup_delay = 900;                                             // Time in seconds until bodies of dead soldiers are cleaned up.
 
 GRLIB_blufor_cap = 100;                                                 // Cap for BLUFOR.
 GRLIB_sector_cap = 180;                                                 // Cap for sector defenders.
