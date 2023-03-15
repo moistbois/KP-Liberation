@@ -173,7 +173,10 @@ gulp.task('pbo', gulp.series(taskNamesPbo));
 
 gulp.task('zip', gulp.series(taskNamesZip));
 
-gulp.task('workshop', gulp.series(taskNamesWorkshop));
+if (taskNamesWorkshop.length)
+{
+    gulp.task('workshop', gulp.series(taskNamesWorkshop));
+}
 
 gulp.task('default',
     gulp.series(
