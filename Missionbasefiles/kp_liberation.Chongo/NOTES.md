@@ -6,11 +6,19 @@ Sources:
 3. [sth about burundi](https://www.smallarmssurvey.org/sites/default/files/resources/Small-Arms-Survey-2007-Chapter-06-EN.pdf)
 ####	Small Arms:
  - Browning HP - 7.65×21mm
-	 - FreeWorld Armoury
+	 - sp_fwa_l9a1_hipower_wood
+       - sp_fwa_13Rnd_9mm_HiPower
  - Glock 17
+   - rhsusf_weap_glock17g4
+     - rhsusf_mag_17Rnd_9x19_JHP
+     - rhsusf_mag_17Rnd_9x19_FMJ
  - Makarov (done)
  - Tokarev
  - Mauser HSc
+
+ - rhs_weap_rsp30_white
+ - rhs_weap_rsp30_green
+ - rhs_weap_rsp30_red
  
  - AKM - 7.62x39mm
 	 - rhs_weap_akm
@@ -19,22 +27,76 @@ Sources:
  - Dragunov SVD
  - AK-47
  - AK-74
+   - rhs_weap_ak74
+   - rhs_weap_aks74
+     - rhs_acc_dtk
+     - rhs_acc_dtk1
+     - rhs_acc_dtk2
+     - rhs_acc_dtk3
+     - rhs_acc_2dpzenit
  - SKS
  - CZ58
+   - rhs_weap_savz58p
+   - rhs_weap_savz58p_black
+   - rhs_weap_savz58v
+   - rhs_weap_savz58v_black
+     - rhsgref_acc_zendl
+     - rhs_30Rnd_762x39mm_Savz58
+     - rhs_30Rnd_762x39mm_Savz58_tracer
  - FN FAL
+   - Note - T48 is the US model - good(ish) for Colorado?
+   - sp_fwa_fal_m2 (sniper variant)
+   - sp_fwa_fal_bgs_a (west germany border protection)
+   - sp_fwa_fal_bgs_b
+   - sp_fwa_fal_dutch
+   - sp_fwa_falo_factory_50_42_bipod
+   - sp_fwa_fal_factory_50_00
+   - sp_fwa_fal_stg58_fn
+   Additionally:
+   - sp_fwa_scope_fal_fn_factory
+   - sp_fwa_scope_eltro_b8v_ir_scope (night)
+     - sp_fwa_illuminator_eltro_b8v_ir
+   Ammo:
+   - sp_fwa_20Rnd_762_FAL_Metric
+   - sp_fwa_20Rnd_762_FAL_Metric_Ball
+   - sp_fwa_20Rnd_762_FAL_Metric_Tracer
+   - sp_fwa_30Rnd_Straight_762_FAL_Metric
+   - sp_fwa_30Rnd_Straight_762_FAL_Metric_Ball
+   - sp_fwa_30Rnd_Straight_762_FAL_Metric_Tracer
+   Rifle grenades:
+   - sp_fwa_1rnd_riflegrenade_energa_at
+   - sp_fwa_1rnd_riflegrenade_mas_ap
+   - sp_fwa_1rnd_riflegrenade_mas_wp
+   - sp_fwa_1rnd_riflegrenade_mas_flare
+
  - M4
  - M16
- - R1
- - R4
- - R5
+ - R1 R4 R5 - RSA FAL variants?
 
  - Mp-9
  - Uzi
 
  - FN MAG
+   - sp_fwa_mag58
+     - sp_fwa_acc_machinegun_linkhide
+     - sp_fwa_50Rnd_762_mag
+     - sp_fwa_50Rnd_762_mag_ball
+     - sp_fwa_50Rnd_762_mag_turret
+     - sp_fwa_150Rnd_762_mag
+     - sp_fwa_150Rnd_762_mag_ball
+     - sp_fwa_150Rnd_762_mag_turret
+     - sp_fwa_200Rnd_762_mag
+     - sp_fwa_200Rnd_762_mag_ball
+     - sp_fwa_200Rnd_762_mag_turret
+     
  - FN Minimi
+   - ugly model in RHS
  - SG43
  - RPK
+   - rhs_weap_rpk74m
+     - rhs_45Rnd_545X39_7N6_AK
+     - rhs_45Rnd_545X39_7N6M_AK
+     - rhs_45Rnd_545X39_AK_Green
  - RPD - 7.62x39mm
 	 - Missing
  - PKM - 7.62x54mmR
@@ -44,6 +106,13 @@ Sources:
 	 - Missing
  - Zastava M92 - 7.62x39mm
 	 - rhs_weap_m92
+
+### Grenades:
+- rhs_mag_nspd
+- rhs_mag_rgd2_white
+- rhs_mag_rgn
+- rhs_mag_rgo
+- rhs_mag_f1
  
 #### Anti-tank and missile:
 ##### RPGs:
