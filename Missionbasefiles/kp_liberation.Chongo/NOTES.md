@@ -4,6 +4,7 @@ Sources:
 1. [Wikipedia](https://en.wikipedia.org/wiki/List_of_equipment_of_the_Land_Forces_of_the_Democratic_Republic_of_the_Congo)
 2. [Onyx](https://www.oryxspioenkop.com/2021/06/welcome-to-jungle-ukrainian-t-64b1m.html)
 3. [sth about burundi](https://www.smallarmssurvey.org/sites/default/files/resources/Small-Arms-Survey-2007-Chapter-06-EN.pdf)
+4. [SmallArmsSurvey - Availability, TRade and Impacts in the Republic of Congo](https://www.smallarmssurvey.org/sites/default/files/resources/SAS-SR02-Congo.pdf)
 ####	Small Arms:
  - Browning HP - 7.65×21mm
 	 - sp_fwa_l9a1_hipower_wood
@@ -71,7 +72,9 @@ Sources:
 
  - M4
  - M16
- - R1 R4 R5 - RSA FAL variants?
+ - Vector R4 and R5
+ - Galil
+ - 
 
  - Mp-9
  - Uzi
@@ -115,6 +118,7 @@ Sources:
 - rhs_mag_f1
  
 #### Anti-tank and missile:
+ - RPO-A Shmel 
 ##### RPGs:
  - Type 69 RPG - 40mm (Rocket-propelled grenade)
 ##### Recoilless rifles:
