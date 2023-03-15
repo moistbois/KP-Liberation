@@ -35,7 +35,7 @@
     },
     {
         "sourceFolder": "kp_liberation.Chongo",
-        "missionName": "kp_liberation_Chongo",
+        "missionName": "kp_liberation",
         "map": "Chongo",
         "configFile": "kp_liberation_config.sqf",
         "variables": {
