@@ -49,15 +49,15 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
-    "LOP_AM_OPF_Infantry_Rifleman",                                     // Rifleman (AKM)
-    "LOP_AM_OPF_Infantry_Rifleman",                                     // Rifleman (AKM)
-    "LOP_AM_OPF_Infantry_Rifleman_6",                                   // Rifleman (Vz. 58)
-    "LOP_AM_OPF_Infantry_Rifleman_4",                                   // Rifleman (AKM PM63)
-    "LOP_AM_OPF_Infantry_AT",                                           // Rifleman (RPG-7)
-    "LOP_AM_OPF_Infantry_AR",                                           // Autorifleman (PKM)
-    "LOP_AM_OPF_Infantry_Rifleman_7",                                   // Marksman (M38)
-    "LOP_AM_OPF_Infantry_Corpsman",                                     // Medic (Bonesetter)
-    "LOP_AM_OPF_Infantry_IED"                                           // Engineer (Bomber)
+    "LOP_AFR_OPF_Infantry_Rifleman",                                     // Rifleman (AKM)
+    "LOP_AFR_OPF_Infantry_Rifleman",                                     // Rifleman (AKM)
+    "LOP_AFR_OPF_Infantry_Rifleman_6",                                   // Rifleman (Vz. 58)
+    "LOP_AFR_OPF_Infantry_Rifleman_4",                                   // Rifleman (AKM PM63)
+    "LOP_AFR_OPF_Infantry_AT",                                           // Rifleman (RPG-7)
+    "LOP_AFR_OPF_Infantry_AR",                                           // Autorifleman (PKM)
+    "LOP_AFR_OPF_Infantry_Rifleman_7",                                   // Marksman (M38)
+    "LOP_AFR_OPF_Infantry_Corpsman",                                     // Medic (Bonesetter)
+    "LOP_AFR_OPF_Infantry_IED"                                           // Engineer (Bomber)
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
