@@ -1,7 +1,7 @@
 /*
     File: central_africa.sqf
     Date: 2023-03-14
-    Last Update: 2023-03-15
+    Last Update: 2023-03-16
     License: MIT License - http://www.opensource.org/licenses/MIT
 */
 GRLIB_arsenal_weapons = [
@@ -18,10 +18,14 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_savz58v_black",
 	"rhs_weap_m92",
 	"rhs_weap_pkm",
-	"rhs_weap_l1a1",
-	"rhs_weap_l1a1_wood",
 	"rhs_weap_fnmag",
 	"rhs_weap_rpk74m",
+	"hlc_rifle_L1A1SLR",
+	"hlc_rifle_FAL5000",
+	"hlc_rifle_g3a3",
+	"ARMSCor_Uzi",
+	"ARMSCor_R1_HB",
+
 	
 	//Handguns
 	"ACE_Flashlight_Maglite_ML300L",
@@ -68,12 +72,20 @@ GRLIB_arsenal_magazines = [
 	"rhs_100Rnd_762x54mmR_7BZ3",
 	"rhs_100Rnd_762x54mmR_7N13",
 	"rhs_100Rnd_762x54mmR_7N26",
-	//L1A1
-	"rhs_mag_20Rnd_762x51_m62_fnfal",
-	"rhs_mag_20Rnd_762x51_m80_fnfal",
+	//L1A1/FAL
+	"hlc_20Rnd_762x51_B_fal",
+	"hlc_20Rnd_762x51_T_fal",
 	//FN MAG
 	"rhsusf_100Rnd_762x51_m62_tracer",
 	"rhsusf_100Rnd_762x51",
+	//G3A3
+	"hlc_20rnd_762x51_b_G3",
+	"hlc_20rnd_762x51_T_G3",
+	//Uzi
+	"armscor_30Rnd_9x19",
+	//R1 HB
+	"ARMSCor_30Rnd_762x51_R1HB",
+	"ARMSCor_30Rnd_762x51_R1",
 
 	//Handguns
 	"rhs_mag_9x18_0_57N181S",
@@ -82,7 +94,7 @@ GRLIB_arsenal_magazines = [
 
 	//Grenades
 	"rhs_mag_nspd",
-	"rhs_mag_rgd2_white",
+	"rhs_mag_rdg2_white",
 	"rhs_mag_rgn",
 	"rhs_mag_rgo",
 	"rhs_mag_f1",
@@ -124,6 +136,12 @@ GRLIB_arsenal_items = [
 	"LOP_H_SSh68Helmet_BLK",
 	"LOP_H_SSh68Helmet_wz93",
 	"LOP_H_6B27M_ess_wz93",
+	"ARMSCor_32Bat_Booniehat_I",
+	"ARMSCor_RSF_Booniehat_I",
+	"ARMSCor_Booniehat_SADF_I",
+	"ARMSCor_ru_hat",
+	"PO_H_M1_OLV_1",
+	"PO_H_M1_OLV_2",
 // Uniforms
 	"LOP_U_CHR_Citizen_05",
 	"LOP_U_IRA_Fatigue_GRK_DPM",
@@ -158,6 +176,7 @@ GRLIB_arsenal_items = [
 	"rhsgref_uniform_ERDL",
 	"rhsgref_uniform_flecktarn",
 	"rhsgref_uniform_flecktarn_full",
+	"ARMSCor_CombatUniform_SADF_I",
 // Vests
 	"V_Pocketed_black_F",
 	"V_Pocketed_coyote_F",
@@ -180,6 +199,13 @@ GRLIB_arsenal_items = [
 	"rhs_chicom",
 	"rhs_chicom_khk",
 	"rhsgref_chicom",
+	"rhs_6sh117_mg",
+	"rhs_6sh117_rifleman",
+	"ARMSCor_32Bat_Chestrig_I",
+	"V_BandollierB_cbr",	
+	"V_BandollierB_rgr",
+	"rhs_belt_RPK",
+	"rhs_belt_AK_GL",
 // Facewear:
 	"G_Aviator",
 	"G_Balaclava_blk",
@@ -275,14 +301,17 @@ GRLIB_arsenal_items = [
 	"ACE_splint",
 	"ACE_surgicalKit",
 	"SOL_Phone",
+	"ACE_WaterBottle",
 // Weapon addons
-	"rhsgref_acc_falmuzzle_l1a1",
 	"rhs_acc_dtk",
     "rhs_acc_dtk1",
     "rhs_acc_dtk2",
     "rhs_acc_dtk3",
     "rhs_acc_2dpzenit",
-	"rhsgref_acc_zendl"
+	"rhsgref_acc_zendl",
+	"hlc_optic_pvs4fal",
+	"hlc_optic_suit",
+	"hlc_optic_pvs4g3"
 ];
 
 GRLIB_arsenal_backpacks = [

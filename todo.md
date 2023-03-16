@@ -22,3 +22,8 @@
 - [ ] set 0 chance of civlians injured spawning
 - [ ] set sector capture popularity boost to miniscule
 - [ ] set building destruction penalty to damaged
+
+### Testing
+- [ ] Vehicles:
+  - [ ] no conflictsf of blufor vehicles due to using civ/opfor models
+  - [ ] respawning civilian vehicles on restart (mobile spawn aka huron)
