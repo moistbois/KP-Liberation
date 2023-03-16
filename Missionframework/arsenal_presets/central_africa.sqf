@@ -260,7 +260,7 @@ GRLIB_arsenal_items = [
 // Extra
 	"ItemMap",
 	"ItemGPS",
-	"O_UavTerminal",
+	"B_UavTerminal",
 	"TFAR_anprc152",
 	"TFAR_anprc154",
 	"TFAR_anprc148jem",
