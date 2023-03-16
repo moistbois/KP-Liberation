@@ -5582,7 +5582,7 @@
             <Czech>Nahradit nejbližší AI</Czech>
         </Key>
         <Key ID="STR_CR_KILLMSG">
-            <Original>A civilian named %1 was killed!</Original>
+            <Original>A civilian was killed by %2!</Original>
             <German>Ein Zivilist mit Namen %1 wurde getötet!</German>
             <Spanish>Un civil llamado %1 fue asesinado!</Spanish>
             <Russian>Гражданский %1 был убит!</Russian>
@@ -5621,7 +5621,7 @@
             <Czech>Civilisté si stěžují na %1 zničené budovy.</Czech>
         </Key>
         <Key ID="STR_CR_HEALMSG">
-            <Original>Civilian named %1 is thankful for your help.</Original>
+            <Original>Civilian is thankful for your help.</Original>
             <German>Der Zivilist %1 ist dankbar für die Hilfe.</German>
             <Spanish>El civil %1 se siente agradecido por tu ayuda.</Spanish>
             <Russian>Гражданский %1 благодарен за вашу помощь.</Russian>
@@ -6021,7 +6021,7 @@
             <Czech>Zbývá %1 minut na mobilní respawn.</Czech>
         </Key>
         <Key ID="STR_CR_RESISTANCE_KILLMSG">
-            <Original>An allied resistance fighter named %1 was killed!</Original>
+            <Original>An allied resistance fighter was killed by %2!</Original>
             <German>Ein verbündeter Widerstandskämpfer mit Namen %1 wurde getötet!</German>
             <Spanish>Un aliado de la resistencia llamado %1 ha sido asesinado!</Spanish>
             <Russian>Союзный боец сопротивления %1 был убит!</Russian>
