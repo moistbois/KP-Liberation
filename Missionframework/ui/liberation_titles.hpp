@@ -28,7 +28,7 @@ class RscTitles {
             w = 0.4 * safezoneW;
             y = 0.65 * safezoneH + safezoneY;
             h = 0.1 * safezoneH;
-            text = "[GREUH] and the Killah Potatoes present";
+            text = "Loading...";
             shadow = 1;
         };
         class GenericLabelShadow: GenericLabel2 {
@@ -70,7 +70,7 @@ class RscTitles {
             w = 0.3 * safezoneW;
             y = 0.65 * safezoneH + safezoneY;
             h = 0.1 * safezoneH;
-            text = $STR_MISSION_VERSION;
+            text = "KP Liberation v0.96.7a";
         };
         class VersionLabelShadow: VersionLabel {
             shadow = 2;
