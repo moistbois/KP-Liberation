@@ -88,7 +88,7 @@ GRLIB_arsenal_magazines = [
 	"ARMSCor_30Rnd_762x51_R1",
 
 	//Handguns
-	"rhs_mag_9x18_8_57N181S"
+	"rhs_mag_9x18_8_57N181S",
 	"rhsusf_mag_17Rnd_9x19_JHP",
 	"rhsusf_mag_17Rnd_9x19_FMJ",
 
