@@ -1,7 +1,7 @@
 /*
     File: central_africa.sqf
     Date: 2023-03-14
-    Last Update: 2023-03-16
+    Last Update: 2023-03-18
     License: MIT License - http://www.opensource.org/licenses/MIT
 */
 GRLIB_arsenal_weapons = [
@@ -150,6 +150,7 @@ GRLIB_arsenal_items = [
 	"LOP_U_BH_Fatigue_GUE_FWDL",
 	"LOP_U_IRA_Fatigue_HTR_DPM_J",
 	"LOP_U_IRA_Fatigue_HTR_DPM",
+	"LOP_U_IRA_Fatigue_HTR_BLK",
 	"LOP_U_BH_Fatigue_M81_CHOCO",
 	"LOP_U_BH_Fatigue_M81_FWDL",
 	"LOP_U_BH_Fatigue_M81_LIZ",
@@ -177,6 +178,13 @@ GRLIB_arsenal_items = [
 	"rhsgref_uniform_flecktarn",
 	"rhsgref_uniform_flecktarn_full",
 	"ARMSCor_CombatUniform_SADF_I",
+	"LOP_U_IRA_Fatigue_DPM_TSW",
+	"LOP_U_UVF_Fatigue_COY_OSW",
+	"U_I_C_Soldier_Para_5_F",
+	"U_I_C_Soldier_Para_4_F",
+	"LOP_U_PMC_red_hi",
+	"LOP_U_PMC_floral",
+	"U_I_FUllGhillie_ard",
 // Vests
 	"V_Pocketed_black_F",
 	"V_Pocketed_coyote_F",
@@ -200,6 +208,7 @@ GRLIB_arsenal_items = [
 	"rhs_chicom_khk",
 	"rhsgref_chicom",
 	"rhs_6sh117_mg",
+	"rhs_6sh117_ar",
 	"rhs_6sh117_rifleman",
 	"ARMSCor_32Bat_Chestrig_I",
 	"V_BandollierB_cbr",	
@@ -345,5 +354,15 @@ GRLIB_arsenal_backpacks = [
 	"rhs_sidor",
 	"rhs_tortila_black",
 	"rhs_tortila_emr",
-	"B_UAV_01_backpack_F"
+	"B_UAV_01_backpack_F",
+	"ACE_TacticalLadder_Pack",
+	"ARMSCor_B_CRRC_backpack",
+	"rhs_medic_bag",
+	"B_Messenger_Black_F",
+	"B_Messenger_Coyote_F",
+	"B_Messenger_Gray_F",
+	"B_Messenger_Olive_F",
+	"B_CivilianBackpack_01_Everyday_Astra_F",
+	"B_CivilianBackpack_01_Everyday_Vrana_F",
+	"B_Bergen_tna_F"
 ];
