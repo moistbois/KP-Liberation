@@ -1,12 +1,12 @@
 /*
 TODO figure out dependencies
     Needed Mods:
-    - Project OPFOR (and dependencies - idk which exactly XD)
+		- Project OPFOR
 		- RHS: AFRF
 		- RHS: USAF 
 		- RHS: GREF
 		- RHS: SAF
-
+		- ARMSCor 3.5.5
     Optional Mods:
     - None
 */
@@ -41,7 +41,7 @@ opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";                              // Ural-
 opfor_ammo_truck = "rhs_gaz66_ammo_msv";                                // GAZ-66 (Ammo)
 opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";             // Taru Fuel Pod
 opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";             // Taru Ammo Pod
-opfor_flag = "lop_Flag_tak_F";                                          // Flag
+opfor_flag = "lop_Flag_afr_F";                                          // Flag
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
 Therefore, adding the same value twice or three times means they are more likely to be chosen more often. */
@@ -62,19 +62,22 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    "LOP_AM_OPF_UAZ_DshKM"                                              // UAZ-3151 (DShKM)
+    "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
+    "LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
+	"LOP_AM_OPF_UAZ_DshKM"                                              // UAZ-3151 (DShKM)
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
     "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
     "LOP_AFR_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
-    "LOP_AFR_OPF_Offroad_M2",                                          // Offroad (M2) //TODO no AT offroad to not decrease chances of proper military vehicles
+    "LOP_AFR_OPF_Offroad_M2",                                          // Offroad (M2)
 	"LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_AFR_OPF_BTR60",                                               // BTR-60PB
 	"LOP_AFR_OPF_M113_W",	 										   // M113A3 M2
     "LOP_AFR_OPF_T34",                                                 // T-34-85M
     "LOP_AFR_OPF_T55",                                                 // T55A
+	"rhs_D30_msv",														// 2A18/D-30 (122mm towed howitzer)
     "LOP_AFR_OPF_T55",                                                 // T55A
     "LOP_AFR_OPF_T72BA",                                               // T72B
     "LOP_AFR_OPF_T72BB",                                               // T72B
@@ -84,8 +87,6 @@ opfor_vehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
     "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
-    "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
-    "LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
 	"LOP_AFR_OPF_Offroad_M2",                                          // Offroad (M2)
 	"LOP_AFR_OPF_Offroad_AT",                                          // Offroad (AT)
@@ -98,34 +99,27 @@ opfor_battlegroup_vehicles = [
     "LOP_AFR_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
     "LOP_AFR_OPF_Offroad_M2",                                          // Offroad (M2)
     "LOP_AFR_OPF_Truck",                                               // Truck (Cargo)
-    "LOP_AFR_OPF_Truck",                                               // Truck (Cargo)
     "LOP_AFR_OPF_BTR60",                                               // BTR-60PB
     "LOP_AFR_OPF_T34",                                                 // T-34-85M
+	"rhs_D30_msv",														// 2A18/D-30 (122mm towed howitzer)
     "LOP_AFR_OPF_T55",                                                 // T55A
-    "LOP_AFR_OPF_T55",                                                 // T55A
-    "LOP_AFR_OPF_T72BA",                                               // T72B
     "LOP_AFR_OPF_T72BB",                                               // T72B
-    "rhsgref_ins_zsu234",                                              // ZSU-23-4V //TODO as above
-    "rhsgref_ins_zsu234",                                              // ZSU-23-4V //TODO as above
-    "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo) //TODO slightly changed Takistani helis (from isis templaye still)
-    "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
+    "rhsgref_ins_zsu234",                                              // ZSU-23-4V (AA)
+	"rhs_2b14_82mm_msv",												//2B14 Podnos (82mm Mortar)
     "LOP_TKA_Mi8MTV3_FAB",                                              // Mi-8MTV-3 (FAB)
+	"LOP_TKA_Mi24V_AT",                                                 // Mi-24T (AT)
     "LOP_TKA_Mi24V_UPK23"                                               // Mi-24V (UPK)
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
-    "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
     "LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
-    "LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
-	"LOP_AFR_OPF_Offroad_M2",                                          // Offroad (M2)
 	"LOP_AFR_OPF_Offroad_AT",                                          // Offroad (AT)
-    "LOP_AFR_OPF_Truck",                                               // Truck (Cargo)
+	"rhs_D30_msv",														// 2A18/D-30 (122mm towed howitzer)
     "LOP_AFR_OPF_Truck",                                               // Truck (Cargo)
     "LOP_AFR_OPF_BTR60",                                               // BTR-60PB
-    "LOP_AFR_OPF_T34",                                                 // T-34-85M
-    "rhsgref_ins_zsu234",                                              // ZSU-23-4V //TODO as above
+	"rhs_2b14_82mm_msv",												//2B14 Podnos (82mm Mortar)
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo) //TODO slightly changed Takistani helis (from isis templaye still)
     "LOP_TKA_Mi8MTV3_FAB"                                              // Mi-8MTV-3 (FAB)
 ];
@@ -133,22 +127,22 @@ opfor_battlegroup_vehicles_low_intensity = [
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
-    "LOP_AFR_OPF_Truck",                                               // Truck (Cargo) //TODO verify, add maybe some Urals etc
-	"rhsgref_ins_ural_open",                                           // Ural open  //TODO use ChDKZ or Takistani?
+    "RHS_Ural_Open_MSV_01",                                               // URAL-4320 (Open)
+	"rhssaf_army_o_ural_open",                                           // Ural-375D (Open)
+	"ARMSCor_Landrover_SADF_I",											// Land Rover
     "LOP_AFR_OPF_BTR60",                                               // BTR-60PB
-    "LOP_TKA_Mi8MT_Cargo"                                               // Mi-8MT (Cargo)
+    "LOP_TKA_Mi8MT_Cargo"                                              // Mi-8MT (Cargo)
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
-    "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
-    "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
-    "LOP_TKA_Mi24V_UPK23"                                               // Mi-24V (UPK)
+    "LOP_TKA_Mi8MT_Cargo",											// Mi-8MT (Cargo)
+	"RHS_Mi24P_vvs",                                              // MI-24P (GSh-30-2k/S8 KOM)
+	"RHS_Mi24V_vvs", 											//MI-24V (S-8 KOM and DF and a YakB-12.7)
+	"ARMSCor_Rooivalk_I" 											// AH-2 Rooivalk Mk-1F (F2 20mm Cannon and 9K121 Vikhr)
 ];
 
 // Enemy fixed-wings that will need to spawn in the air. //TODO remove?
 opfor_air = [
-    "RHS_Su25SM_vvsc",                                                  // Su-25
-    "RHS_Su25SM_KH29_vvsc"                                              // Su-25 (KH29)
+    "RHSGREF_A29B_HIDF"                                                  // A-29 Super Tucano
 ];
