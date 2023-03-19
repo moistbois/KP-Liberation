@@ -100,3 +100,112 @@
 - [ ] LOP_AFR_Static_DSHKM // DShKm. 12.7x108mm HMG. High position.
 - [ ] ARMSCor_DShKM_mg2 // DShKm Mini-Tripod. 12.7x108mm HMG. Low position.
 - [ ] rhs_2b14_82mm_msv // 2B14 Podnos. 82mm Mortar.
+
+#### ALL INFANTRY:
+- [ ] LOP_AFR_Infantry_IED = Bomber
+- [ ] LOP_AFR_Infantry_GL = Bonesetter
+- [ ] LOP_AFR_Infantry_GL = Pirate (AKM-GP-25)
+- [ ] LOP_AFR_Infantry_Rifleman_4 = Pirate (AKM PM-63)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+- [ ] LOP_AFR_Infantry_Rifleman_5 = Pirate (IzH18)
+- [ ] LOP_AFR_Infantry_Rifleman_2 = Pirate (M16)
+- [ ] LOP_AFR_Infantry_Rifleman_7 = Pirate (M38)
+- [ ] LOP_AFR_Infantry_AR_2 = Pirate (MG-42)
+- [ ] LOP_AFR_Infantry_Rifleman_8 = Pirate (MP 44)
+- [ ] LOP_AFR_Infantry_AR = Pirate (PKM)
+- [ ] LOP_AFR_Infantry_AT = Pirate (RPG-7)
+- [ ] LOP_AFR_Infantry_Marksman = Pirate (SVD)
+- [ ] LOP_AFR_Infantry_Rifleman_6 = Pirate (Vz. 58)
+- [ ] LOP_AFR_Infantry_AR_Asst_2 = Pirate (MG42)
+- [ ] LOP_AFR_Infantry_AR_Asst = Pirate (PKM)
+- [ ] LOP_AFR_Driver = Pirate Driver
+- [ ] LOP_AFR_Infantry_SL = Warlord
+
+#### COMPOSITIONS:
+##### Anti-armor Team:
+- [ ] LOP_AFR_Infantry_TL = Team Leader
+- [ ] LOP_AFR_Infantry_SL = Warlord
+- [ ] LOP_AFR_Infantry_GL = Bonesetter
+- [ ] LOP_AFR_Infantry_AT = Pirate (RPG-7)
+- [ ] LOP_AFR_Infantry_AT = Pirate (RPG-7)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+- [ ] LOP_AFR_Infantry_AT = Pirate (RPG-7)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+
+##### Rifle Squad:
+- [ ] LOP_AFR_Infantry_TL = Team Leader
+- [ ] LOP_AFR_Infantry_SL = Warlord
+- [ ] LOP_AFR_Infantry_GL = Bonesetter
+- [ ] LOP_AFR_Infantry_Marksman = Pirate (SVD)
+- [ ] LOP_AFR_Infantry_AT = Pirate (RPG-7)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+- [ ] LOP_AFR_Infantry_AR = Pirate (PKM)
+- [ ] LOP_AFR_Infantry_GL = Pirate (AKM-GP-25)
+
+##### Sentry:
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+
+##### Support Team:
+- [ ] LOP_AFR_Infantry_TL = Team Leader
+- [ ] LOP_AFR_Infantry_SL = Warlord
+- [ ] LOP_AFR_Infantry_GL = Bonesetter
+- [ ] LOP_AFR_Infantry_AT = Pirate (RPG-7)
+- [ ] LOP_AFR_Infantry_Marksman = Pirate (SVD)
+- [ ] LOP_AFR_Infantry_AR = Pirate (PKM)
+- [ ] LOP_AFR_Infantry_Rifleman = Pirate (AKM)
+- [ ] LOP_AFR_Infantry_AR = Pirate (PKM)
+- [ ] LOP_AFR_Infantry_GL = Pirate (AKM-GP-25)
+
+##### Motorized Inf (Landrover .50cal):
+- [ ] LOP_AFR_Infantry_TL = Team Leader
+- [ ] LOP_AFR_Infantry_SL = Warlord
+- [ ] LOP_AFR_Infantry_GL = Bonesetter
+- [ ] LOP_AFR_Infantry_AR = Pirate (PKM)
+- [ ] LOP_AFR_Infantry_GL = Pirate (AKM-GP-25)
+- [ ] LOP_AFR_Infantry_GL = Pirate (AKM-GP-25)
+- [ ] LOP_AFR_Landrover_M2 = Land Rover (M2)
+
+##### Armor - T72 Platoon:
+- [ ] LOP_AFR_T72BA = T-72B (obr. 1984g.)
+- [ ] LOP_AFR_T72BA = T-72B (obr. 1984g.)
+- [ ] LOP_AFR_T72BA = T-72B (obr. 1984g.)
+- [ ] LOP_AFR_Driver = Pirate Driver
+- [ ] LOP_AFR_Driver = Pirate Driver
+- [ ] LOP_AFR_Driver = Pirate Driver
+- [ ] LOP_AFR_Driver = Pirate Driver
+- [ ] LOP_AFR_Driver = Pirate Driver
+- [ ] LOP_AFR_Driver = Pirate Driver
+- [ ] LOP_AFR_Driver = Pirate Driver
+
+#### VEHICLES:
+##### Tank:
+- [ ] LOP_AFR_T34 = T-34-85M
+- [ ] LOP_AFR_T55 = T-55A
+- [ ] LOP_AFR_T72BA = T-72B (obr. 1984g.)
+- [ ] LOP_AFR_T72BB = T72B (obr. 1985g.)
+
+##### Cars:
+- [ ] LOP_AFR_Landrover = Land Rover
+- [ ] LOP_AFR_Landrover_M2 = Land Rover (M2)
+- [ ] LOP_AFR_Landrover_SPG9 = Land Rover (SPG-9)
+- [ ] LOP_AFR_Nissan_PKM = Nissan (PKM)
+- [ ] LOP_AFR_Offroad = Offroad
+- [ ] LOP_AFR_Offroad_M2 = Offroad (M2)
+- [ ] LOP_AFR_Offroad_AT = Offroad (SPG-9)
+
+##### Static:
+- [ ] LOP_AFR_Static_AT4 = 9K115-1 'Metis-M'
+- [ ] LOP_AFR_Igla_AA_pod = 9K38 (Djigit)
+- [ ] LOP_AFR_AGS30_TriPod = AGS-30 (6P17)
+- [ ] LOP_AFR_Static_DSHKM = DShKM
+- [ ] LOP_AFR_Kord = KORD (6T7)
+- [ ] LOP_AFR_Kord_High = (6U16)
+- [ ] LOP_AFR_Static_SPG9 = SPG-9
+- [ ] LOP_AFR_Static_ZU23 = ZU-23-2
+
+##### APCs:
+- [ ] LOP_AFR_BTR60 = BTR-60PB
+- [ ] LOP_AFR_M113_W = M113A3 M2
