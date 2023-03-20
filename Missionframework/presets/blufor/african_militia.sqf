@@ -162,6 +162,8 @@ buildings = [
     ["Land_BagFence_Long_F",0,0,0],
     ["Land_BagFence_Corner_F",0,0,0],
     ["Land_BagFence_End_F",0,0,0],
+	["Land_TentA_F",0,0,0],
+	["Land_TentLamp_01_standing_F",0,0,0],
     ["Land_BagBunker_Small_F",0,0,0],
     ["Land_BagBunker_Large_F",0,0,0],
     ["Land_BagBunker_Tower_F",0,0,0],
