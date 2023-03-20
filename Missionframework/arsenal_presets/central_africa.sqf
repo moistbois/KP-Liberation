@@ -5,6 +5,7 @@
     License: MIT License - http://www.opensource.org/licenses/MIT
 */
 GRLIB_arsenal_weapons = [
+	//Primary
 	"rhs_weap_akm",
 	"rhs_weap_akm_gp25",
 	"rhs_weap_akms",
@@ -23,14 +24,19 @@ GRLIB_arsenal_weapons = [
 	"hlc_rifle_L1A1SLR",
 	"hlc_rifle_FAL5000",
 	"hlc_rifle_g3a3",
+	"rhs_weap_savz61",
 	"ARMSCor_Uzi",
 	"ARMSCor_R1_HB",
-
-	
-	//Handguns
+	//Launchers
+	"rhs_weap_rpg26",
+	"launch_RPG7_F",
+	"rhs_weap_igla",
+	"rhs_weap_rpg26_used",
+	//Secondary
 	"ACE_Flashlight_Maglite_ML300L",
 	"rhs_weap_makarov_pm",
 	"rhsusf_weap_glock17g4",
+	"rhs_weap_savz61_folded",
 	"rhs_weap_rsp30_white",
 	"rhs_weap_rsp30_green",
 	"rhs_weap_rsp30_red"
@@ -83,26 +89,26 @@ GRLIB_arsenal_magazines = [
 	"hlc_20rnd_762x51_T_G3",
 	//Uzi
 	"armscor_30Rnd_9x19",
+	//SA vz. 61
+	"rhsgref_10rnd_765x17_vz61",
+	"rhsgref_20rnd_765x17_vz61",
 	//R1 HB
 	"ARMSCor_30Rnd_762x51_R1HB",
 	"ARMSCor_30Rnd_762x51_R1",
-
+	//RPG7
+	"rhs_rpg7_PG7VL_mag",
+	//Igla
+	"rhs_mag_9k38_rocket",
 	//Handguns
 	"rhs_mag_9x18_8_57N181S",
 	"rhsusf_mag_17Rnd_9x19_JHP",
 	"rhsusf_mag_17Rnd_9x19_FMJ",
-
 	//Grenades
 	"rhs_mag_nspd",
 	"rhs_mag_rdg2_white",
 	"rhs_mag_rgn",
 	"rhs_mag_rgo",
-	"rhs_mag_f1",
-
-	//Cancer
-	"murshun_cigs_matches",
-	"murshun_cigs_lighter",
-	"murshun_cigs_cigpack"
+	"rhs_mag_f1"
 ];
 
 GRLIB_arsenal_items = [
@@ -242,8 +248,6 @@ GRLIB_arsenal_items = [
 	"G_Squares_Tinted",
 	"G_Squares",
 	"G_Spectacles_Tinted",
-	"immersion_cigs_cigar0",
-	"murshun_cigs_cig0",
 	"immersion_pops_pop0",
 	"rhs_balaclava",
 	"rhs_balaclava1_olive",
@@ -280,35 +284,10 @@ GRLIB_arsenal_items = [
 	"ACE_Altimeter",
 	"TFAR_microdagr",
 // ACE items
-	"ACE_CableTie",
 	"ACE_DefusalKit",
-	"ACE_EarPlugs",
-	"ACE_wirecutter",
-	"ACE_MapTools",
-	"ACE_fieldDressing",
-	"ACE_bloodIV",
-	"ACE_bloodIV_250",
-	"ACE_bloodIV_500",
-	"ACE_bodyBag",
-	"ACE_epinephrine",
-	"ACE_morphine",
-	"ACE_personalAidKit",
-	"ACE_Sandbag_empty",
 	"ACE_Flashlight_XL50",
-	"ACE_tourniquet",
-	"ACE_SpareBarrel",
-	"ACE_EntrenchingTool",
-	"ACE_rope12", 
-	"ACE_rope15",
-	"ACE_rope18",
-	"ACE_rope27",
-	"ACE_rope36",
 	"ACE_LIB_FireCord",
-	"ACE_elasticBandage",
-	"ACE_packingBandage",
-	"ACE_quikclot",
-	"ACE_splint",
-	"ACE_surgicalKit",
+
 	"SOL_Phone",
 	"ACE_WaterBottle",
 // Weapon addons
@@ -354,7 +333,6 @@ GRLIB_arsenal_backpacks = [
 	"rhs_sidor",
 	"rhs_tortila_black",
 	"rhs_tortila_emr",
-	"B_UAV_01_backpack_F",
 	"ACE_TacticalLadder_Pack",
 	"ARMSCor_B_CRRC_backpack",
 	"rhs_medic_bag",
