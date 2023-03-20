@@ -213,7 +213,7 @@ GRLIB_secondary_objective_impact = 0.6;                                 // The p
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 30;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 100;                                               // Range to activate a sector.
+GRLIB_sector_size = 1000;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.0;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
@@ -440,7 +440,13 @@ KP_liberation_allowed_items_extension = [
     //"ACE_Chemlight_Shield_Red",
     //"ACE_Chemlight_Shield_White",
     //"ACE_Chemlight_Shield_Yellow",
-    "ACE_launch_NLAW_Used_F",
+	//Cancer
+	"murshun_cigs_matches",
+	"murshun_cigs_lighter",
+	"murshun_cigs_cigpack",
+	"immersion_cigs_cigar0",
+	"murshun_cigs_cig0",
+    //"ACE_launch_NLAW_Used_F",
     "ACE_PreloadedMissileDummy_CUP",
     "ACE_PreloadedMissileDummy_Igla_CUP",
     "ACE_PreloadedMissileDummy_M72A6_CUP",
@@ -449,6 +455,33 @@ KP_liberation_allowed_items_extension = [
     "ACE_PreloadedMissileDummy_Stinger_CUP",
     "ACE_PreloadedMissileDummy_Strela_2_CUP",
     "ACE_ReserveParachute",
+	//ACE Medical
+	"ACE_CableTie",
+	"ACE_EarPlugs",
+	"ACE_wirecutter",
+	"ACE_MapTools",
+	"ACE_fieldDressing",
+	"ACE_bloodIV",
+	"ACE_bloodIV_250",
+	"ACE_bloodIV_500",
+	"ACE_bodyBag",
+	"ACE_epinephrine",
+	"ACE_morphine",
+	"ACE_personalAidKit",
+	"ACE_Sandbag_empty",
+	"ACE_tourniquet",
+	"ACE_SpareBarrel",
+	"ACE_EntrenchingTool",
+	"ACE_rope12", 
+	"ACE_rope15",
+	"ACE_rope18",
+	"ACE_rope27",
+	"ACE_rope36",
+	"ACE_elasticBandage",
+	"ACE_packingBandage",
+	"ACE_quikclot",
+	"ACE_splint",
+	"ACE_surgicalKit",
     "BWA3_acc_LLM01_flash_tan",
     "BWA3_acc_LLM01_flash_underbarrel",
     "BWA3_acc_LLM01_flash",
@@ -532,7 +565,7 @@ KP_liberation_allowed_items_extension = [
     "rhs_m72a7_mag",
     "rhs_rpg26_mag",
     "rhs_rshg2_mag",
-    "rhs_weap_M136_used",
+    //"rhs_weap_M136_used",
     "rhsusf_acc_anpeq15_bk_light_h",
     //"rhsusf_acc_g33_T1_flip",
     //"rhsusf_acc_g33_xps3_flip",
