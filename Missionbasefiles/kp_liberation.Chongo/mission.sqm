@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=916;
+		nextID=961;
 	};
 	class Camera
 	{
@@ -4261,7 +4261,7 @@ class Mission
 		class Item192
 		{
 			dataType="Marker";
-			position[]={4998,73.32,5414};
+			position[]={4985.5,72.04084,5459.375};
 			name="bigtown_2";
 			text="Obupala";
 			type="n_service";
@@ -4270,7 +4270,6 @@ class Mission
 			b=1.55;
 			angle=90;
 			id=330;
-			atlOffset=7.6293945e-006;
 		};
 		class Item193
 		{
@@ -5228,12 +5227,13 @@ class Mission
 		class Item208
 		{
 			dataType="Marker";
-			position[]={7856,139.04669,378};
+			position[]={7835.375,137.1171,364.625};
 			name="factory_2";
 			text="Nimba";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1492;
+			atlOffset=1.5258789e-005;
 		};
 		class Item209
 		{
@@ -5292,51 +5292,50 @@ class Mission
 		class Item214
 		{
 			dataType="Marker";
-			position[]={6993.1699,110.98733,5884.1074};
+			position[]={6982.125,111,5872.875};
 			name="capture_5";
 			text="Blou";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1499;
-			atlOffset=38.024712;
+			atlOffset=38.209999;
 		};
 		class Item215
 		{
 			dataType="Marker";
-			position[]={6485.062,61.407001,5575.0361};
+			position[]={6469.375,60.825813,5577.625};
 			name="factory_4";
 			text="Jadot Railway Engineering";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=1500;
-			atlOffset=-0.00051879883;
 		};
 		class Item216
 		{
 			dataType="Marker";
-			position[]={6296.3145,108.09,5261.6055};
+			position[]={6306.75,108.125,5277.625};
 			name="capture_6";
 			text="Jadot";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1501;
-			atlOffset=44.782501;
+			atlOffset=44.657082;
 		};
 		class Item217
 		{
 			dataType="Marker";
-			position[]={6855.7979,105.119,5104.0908};
+			position[]={6859.125,105.125,5121.75};
 			name="capture_7";
 			text="Bammio";
 			type="n_art";
 			colorName="ColorEAST";
 			id=1502;
-			atlOffset=44.782658;
+			atlOffset=40.845818;
 		};
 		class Item218
 		{
 			dataType="Marker";
-			position[]={2430,43.599998,2437.25};
+			position[]={2412,43.66,2483.5};
 			name="bigtown_4";
 			text="Chongo City";
 			type="n_service";
@@ -5349,13 +5348,12 @@ class Mission
 		class Item219
 		{
 			dataType="Marker";
-			position[]={2851,44.969826,2937};
+			position[]={2824.875,42.9925,2927.25};
 			name="military_3";
 			text="Chongo Airport";
 			type="o_support";
 			colorName="ColorEAST";
 			id=1504;
-			atlOffset=3.8146973e-006;
 		};
 		class Item220
 		{
@@ -9331,7 +9329,7 @@ class Mission
 		class Item234
 		{
 			dataType="Marker";
-			position[]={2165,39.650833,4480.25};
+			position[]={2144.5,37.945004,4487};
 			name="military_4";
 			text="Checkpoint Miba";
 			type="o_support";
@@ -15435,13 +15433,13 @@ class Mission
 						angles[]={0.02999169,1.2876707,0.086450629};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						skill=0.2;
 					};
 					id=4143;
 					type="Land_BottlePlastic_V2_F";
+					atlOffset=0.13318825;
 				};
 				class Item33
 				{
@@ -15498,7 +15496,7 @@ class Mission
 				};
 			};
 			id=4147;
-			atlOffset=0.035087585;
+			atlOffset=0.04343605;
 		};
 		class Item262
 		{
@@ -18478,13 +18476,13 @@ class Mission
 		class Item320
 		{
 			dataType="Marker";
-			position[]={6562,108,6033};
+			position[]={6587.375,108,6027};
 			name="capture_10";
 			text="Bartin";
 			type="n_art";
 			colorName="ColorEAST";
 			id=4546;
-			atlOffset=45.53664;
+			atlOffset=45.16;
 		};
 		class Item321
 		{
@@ -19246,14 +19244,13 @@ class Mission
 						angles[]={0.039980642,4.7410536,0.073201545};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						skill=0.2;
 					};
 					id=4640;
 					type="Land_BottlePlastic_V2_F";
-					atlOffset=0.064136505;
+					atlOffset=0.19725418;
 				};
 				class Item33
 				{
@@ -19890,14 +19887,13 @@ class Mission
 						angles[]={0.02666023,1.2508953,0.016666256};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						skill=0.2;
 					};
 					id=4678;
 					type="Land_BottlePlastic_V2_F";
-					atlOffset=-0.00011062622;
+					atlOffset=0.13259506;
 				};
 				class Item69
 				{
@@ -19955,7 +19951,7 @@ class Mission
 				};
 			};
 			id=4644;
-			atlOffset=0.13829041;
+			atlOffset=0.14657211;
 		};
 		class Item331
 		{
@@ -19976,13 +19972,13 @@ class Mission
 		class Item332
 		{
 			dataType="Marker";
-			position[]={3124.49,91.306999,1352.03};
+			position[]={3115.125,90.875,1348};
 			name="capture_13";
 			text="Kofinga";
 			type="n_art";
 			colorName="ColorEAST";
 			id=4682;
-			atlOffset=44.786724;
+			atlOffset=44.876663;
 		};
 		class Item333
 		{
@@ -22461,7 +22457,7 @@ class Mission
 		class Item387
 		{
 			dataType="Marker";
-			position[]={4005.875,53.715424,1401.375};
+			position[]={3997.75,53.548336,1401.375};
 			name="military_9";
 			text="Litama Base";
 			type="o_support";
@@ -25670,13 +25666,13 @@ class Mission
 		class Item411
 		{
 			dataType="Marker";
-			position[]={7457.125,93.75,11778.75};
+			position[]={7456.125,93.75,11777.25};
 			name="capture_14";
 			text="Thogoto Ruins";
 			type="n_art";
 			colorName="ColorEAST";
 			id=6243;
-			atlOffset=43.221649;
+			atlOffset=43.209999;
 		};
 		class Item412
 		{
@@ -31193,13 +31189,13 @@ class Mission
 		class Item471
 		{
 			dataType="Marker";
-			position[]={2763.375,88.375,2352.375};
+			position[]={2776,88.375,2376.375};
 			name="capture_19";
 			text="Libanda";
 			type="n_art";
 			colorName="ColorEAST";
 			id=7233;
-			atlOffset=44.75;
+			atlOffset=45.648754;
 		};
 		class Item472
 		{
@@ -31879,7 +31875,7 @@ class Mission
 		class Item479
 		{
 			dataType="Marker";
-			position[]={2432.75,38.551521,2069.75};
+			position[]={2435.625,38.551746,2065.75};
 			name="tower_13";
 			text="Radio Tower";
 			type="loc_Transmitter";
@@ -32035,13 +32031,12 @@ class Mission
 		class Item483
 		{
 			dataType="Marker";
-			position[]={3071.8689,47.181,6973.436};
+			position[]={3041.625,46.433746,6938.125};
 			name="factory_5";
 			text="Mokolo Factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 			id=7795;
-			atlOffset=-0.00025939941;
 		};
 		class Item484
 		{
@@ -34304,7 +34299,7 @@ class Mission
 				};
 			};
 			id=8923;
-			atlOffset=0.069198608;
+			atlOffset=0.069206238;
 		};
 		class Item508
 		{
