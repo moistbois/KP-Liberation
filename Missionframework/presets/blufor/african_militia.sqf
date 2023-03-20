@@ -13,11 +13,11 @@
     The same classnames for different purposes may cause various unpredictable issues with player actions.
     Or not, just don't try!
 */
-FOB_typename = "Land_Antenna";                                    // This is the main FOB HQ building.
+FOB_typename = "Land_GuardHouse_02_F";                                    // This is the main FOB HQ building.
 FOB_box_typename = "Land_TentA_F";                            // This is the FOB as a container.
 FOB_truck_typename = "LOP_CDF_KAMAZ_Covered";                              // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "rhs_gaz66_ap2_msv";                           // This is the mobile respawn (and medical) truck.
+Respawn_truck_typename = "RHS_Ural_MSV_01";                           // This is the mobile respawn (and medical) truck.
 huron_typename = "RHS_Ural_Open_Civ_01";                                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "LOP_AFRCiv_Driver";                          // This defines the crew for vehicles.
 pilot_classname = "LOP_AFR_Driver";                              // This defines the pilot for helicopters.
@@ -26,10 +26,10 @@ KP_liberation_boat_classname = "LOP_AFR_Landrover_M2";                 // These 
 KP_liberation_truck_classname = "rhs_kamaz5350_flatbed_vdv";            // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_forest_F";   // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_forest_F";   // A large storage area for resources.
-KP_liberation_recycle_building = "Land_Mil_Repair_center_EP1";           // The building defined to unlock FOB recycling functionality.
+KP_liberation_recycle_building = "Land_House_C_12_EP1";           // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "Land_ControlTower_01_F";                       // The building defined to unlock FOB air vehicle functionality.
-KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
-KP_liberation_plane_slot_building = "Land_Hangar_2";             // The hangar used to increase the GLOBAL fixed-wing cap.
+KP_liberation_heli_slot_building = "Land_HelipadCivil_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
+KP_liberation_plane_slot_building = "Land_Airport_01_hangar_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
 KP_liberation_supply_crate = "CargoNet_01_box_F";                       // This defines the supply crates, as in resources.
 KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";                      // This defines the ammunition crates.
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
@@ -43,97 +43,84 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This 
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["rhs_vdv_rifleman_lite",15,0,0],                                   // Rifleman (Light)
-    ["rhs_vdv_rifleman",20,0,0],                                        // Rifleman
-    ["rhs_vdv_LAT",30,0,0],                                             // Rifleman (LAT)
-    ["rhs_vdv_grenadier_alt",25,0,0],                                   // Grenadier
-    ["rhs_vdv_machinegunner", 25,0,0],                                  // Machinegunner
-    ["rhs_vdv_arifleman",30,0,0],                                       // Autorifleman
-    ["rhs_vdv_marksman",30,0,0],                                        // Marksman
-    ["rhs_vdv_at",50,10,0],                                             // AT Specialist
-    ["rhs_vdv_aa",50,10,0],                                             // AA Specialist
-    ["rhs_vdv_medic",30,0,0],                                           // Combat Life Saver
-    ["rhs_vdv_engineer",30,0,0],                                        // Engineer
-    ["rhs_vdv_recon_rifleman",20,0,0],                                  // Recon Rifleman
-    ["rhs_vdv_recon_rifleman_lat",30,0,0],                              // Recon Rifleman (AT)
-    ["rhs_vdv_recon_arifleman",30,0,0],                                 // Recon Autorifleman
-    ["rhs_vdv_recon_arifleman_scout",25,0,0],                           // Recon Autorifleman Scout
-    ["rhs_vdv_recon_marksman",30,0,0],                                  // Recon Marksman
-    ["rhs_vdv_armoredcrew",10,0,0],                                     // Crewman
-    ["rhs_pilot_combat_heli",10,0,0],                                   // Helicopter Pilot
-    ["rhs_pilot_transport_heli",10,0,0],                                // Helicopter Pilot Transport
-    ["rhs_pilot",10,0,0]                                                // Pilot
+    ["LOP_AFRCiv_Soldier_Medic",30,0,0],                                           // Bonesetter
+	["LOP_AFR_Infantry_AR", 60,0,0],                                 			 // Pirate (PKM)
+	["LOP_AFR_Infantry_AR_2", 60,0,0],                                 			 // Pirate (MG-42)
+	["LOP_AFR_Infantry_AR_Asst", 60,0,0],                                 			 // Pirate (PKM)
+	["LOP_AFR_Infantry_AR_Asst_2", 60,0,0],                                 			 // Pirate (MG-42)
+	["LOP_AFR_Infantry_IED",40,0,0],                                        // Bomber
+	["LOP_AFR_Infantry_GL",60,0,0],                                  			 // Grenadier
+    ["LOP_AFR_Infantry_AT",80,10,0],                                             // Pirate (RPG-7)
+    ["LOP_AFR_Infantry_Rifleman_5",20,0,0],                              // Pirate (IzH18)
+    ["LOP_AFR_Infantry_Rifleman_7",20,0,0],                                 // Pirate (M38)
+	["LOP_AFR_Infantry_Rifleman_6",30,0,0],                                   // Pirate (Vz. 58)
+    ["LOP_AFR_Infantry_Rifleman",30,0,0],                                        // Pirate (AKM)
+	["LOP_AFR_Infantry_Rifleman_4",30,0,0],                                  // Pirate (AKM PM-63)
+    ["LOP_AFR_Infantry_Rifleman_8",30,0,0],                           // Pirate (MP 44)
+	["LOP_AFR_Infantry_Rifleman_2",30,0,0],                                       // Pirate (M16)
+	["LOP_AFR_Infantry_Marksman",45,0,0],                                        // Pirate (SVDs)
+    ["LOP_AFR_Driver",10,0,0]                                     // Pirate Driver
 ];
 
 light_vehicles = [
     ["O_Quadbike_01_F",50,0,25],                                        // Quad Bike
-    ["LOP_AFR_Landrover",50,0,45],                                            // UAZ
-    ["LOP_AFR_Landrover_M2",50,0,45],                                            // UAZ
-    ["LOP_AFR_Landrover_SPG9",50,0,45],                                       // UAZ (Open)
-    ["LOP_AFR_Offroad_M2",100,0,50],                                        // GAZ-233114 (Unarmed)
-    ["LOP_AFR_Nissan_PKM",100,0,50],                                  // GAZ-233114 (Unarmed) Camo
-    ["rhs_gaz66_ap2_vdv",120,0,60],                                     // GAZ-66-AP-2 (Medical)
-    ["rhs_kamaz5350_vdv",125,0,75],                                     // KamAZ-5350 (covered infantry truck)
-    ["RHS_Ural_VDV_01",105,0,75],                                       // Ural-4320 (covered infantry truck)
-    ["rhs_kamaz5350_open_vdv",125,0,75],                                // KamaZ-5350 (open infantry truck)
-    ["RHS_Ural_Open_VDV_01",105,0,75],                                  // Ural-4320 (open infantry truck)
-    ["rhs_pts_vmf",125,0,100],                                          // PTS
-    ["rhs_gaz66_zu23_vdv",105,70,65],                                   // GAZ-66 (ZU-23)
-    ["O_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
-    ["rhs_bmk_t",200,80,75]                            // BMK tug
+    ["ARMSCor_Landrover_SADF_I",50,0,45],                                 // Land Rover
+	["LOP_AFR_Landrover",50,0,45],                                 // Land Rover
+	["LOP_AFR_Landrover_M2",50,0,45],                                 // Land Rover (M2)
+	["C_Offroad_02_unarmed_F",50,0,45],                                 // Jeep Wrangler
+	["I_C_Offroad_02_LMG_F",50,0,45],                              // Jeep Wrangler (FN Minimi SPW LMG)
+	["LOP_AFR_Nissan_PKM",50,0,45],                                 // Nissan (PKM)
+	["RHS_Ural_MSV_01",50,0,45],                                 // URAL-4320
+	["RHS_Ural_Open_MSV_01",50,0,45],                                 // URAL-4320 (Open)
+	["RHS_Ural_Ammo_MSV_01",50,0,45],                                 // URAL-4320 Ammo
+	["rhs_gaz66_vmf",50,0,45],                                 // GAZ-66
+	["rhs_gaz66_ap2_vmf",50,0,45],                                 // GAZ-66 (Medical)
+	["rhs_gaz66_repair_vmf",50,0,45],                                 // GAZ-66 (Repair)
+	["rhsgref_hidf_canoe",50,0,45],                                 // Canoe
+	["B_Boat_Transport_01_F",50,0,45],                                 // Dinghy
+	["C_Scooter_Transport_01_F",50,0,45],                                 // Jetski
+	["I_C_Boat_Transport_02_F",50,0,45],                                 // RHIB
+	["rhs_bmk_t",50,0,45]                           			      // BMK Tug
 ];
 
 heavy_vehicles = [
-    ["LOP_AFR_OPF_BTR60",200,40,100],                                       // BMP-1K
-    ["LOP_AFR_OPF_T34",240,150,100],                                      // BMP-2K
-    ["LOP_AFR_OPF_T55",260,170,120],                                          // BMD-2M (Berezhok)
-    ["LOP_AFR_OPF_T72BA",300,200,150],                                      // BMD-4M
-    ["LOP_AFR_OPF_T72BB",300,250,150],                                     // BMD-4M (Armored)
-    ["rhs_zsu234_aa",300,250,175],                                      // ZSU-23-4
-    ["rhs_t72bd_tv",400,250,200],                                       // T-72B3
-    ["rhs_t80ue1",400,350,250],                                         // T-80UE1
-    ["rhs_t90a_tv",500,400,300],                                        // T-90A
-    ["rhs_t90sab_tv",600,400,300],                                      // T-90SA (2016)
-    ["rhs_t14_tv",600,500,400],                                         // T-14
-    ["rhs_2s1_tv",600,1000,300],                                        // 2S1
-    ["rhs_2s3_tv",600,1250,300]                                         // 2S3M1
+    ["rhsgref_BRDM2",240,150,100],                                      // BRDM-2. KPVT (14.5x115mm)
+    ["rhs_bmp1_vdv",260,170,120],                                          // BMP-1
+    ["rhsgref_tla_btr60",300,200,150],                                      // BTR-60PB APC
+    ["LOP_AFR_T55",300,250,150]                                     // T-55A
+
 ];
 
 air_vehicles = [
-    ["O_UAV_01_F",75,0,25],                                             // AR-2 Tayran
-    ["O_UAV_06_F",80,0,30],                                             // AL-6 Jinaah (Cargo)
-    ["rhs_ka60_c",200,0,100],                                           // KA-60
-    ["RHS_Mi8AMT_vdv",225,0,125],                                       // Mi-8AMT (Unarmed)
-    ["RHS_Mi8MTV3_vdv",225,200,125],                                    // Mi-8MTV-3
-    ["RHS_Ka52_vvsc",500,500,200],                                      // Ka-52
-    ["RHS_Mi24V_vdv",550,550,250],                                      // Mi-24V
-    ["rhs_mi28n_vvsc",650,600,300],                                     // Mi-28N
-    ["O_UAV_02_dynamicLoadout_F",400,300,200],                          // K40 Ababil
-    ["O_T_UAV_04_CAS_F",450,500,250],                                   // KH-3A
-    ["RHS_Su25SM_vvsc",900,900,400],                                    // Su-25SM
-    ["rhs_mig29s_vvsc",1250,1250,450]                                   // Mig-29S
+    ["B_UAV_01_F",75,0,25],                                             // AR-2 Darter
+	["C_Heli_Light_01_civil_F",75,0,25],                                 // MD 500
+	["ARMSCor_AlouetteIII_SF_ZADF_I",75,0,25],                            // Alouette III
+	["rhs_uh1h_hidf_unarmed",75,0,25],                                // UH-1H
+	["rhs_uh1h_hidf",75,0,25],                                             // UH-1H (M240Hx2)
+	["RHS_Mi8mt_vvs",75,0,25],                                             // Mi-8MT (PKT (7.62x54mm))
+	["RHS_Mi24Vt_vvs",75,0,25],                                             // MI-24VT (YakB-12.7)
+	["RHS_AN2",75,0,25],                                             // AN2
+	["RHSGREF_A29B_HIDF",75,0,25]                                             // A-29 Super Tucano
+
 ];
 
 static_vehicles = [
     ["RHS_NSV_TriPod_VDV",25,40,0],                                     // NSV Low Tripod
-    ["rhs_KORD_high_VDV",25,40,0],                                      // KORD High Tripod
-    ["RHS_AGS30_TriPod_VDV",25,60,0],                                   // AGS30 Low Tripod
-    ["rhs_Kornet_9M133_2_vdv",50,100,0],                                // Kornet (AT)
-    ["rhs_Igla_AA_pod_vdv",50,100,0],                                   // Igla Pod (AA)
-    ["RHS_ZU23_VDV",80,120,0],                                          // ZU-23
-    ["rhs_SPG9M_VDV",40,90,0],                                          // SPG-9 Low Tripod
-    ["rhs_D30_vdv",100,200,0],                                          // D-30
-    ["rhs_D30_at_vdv",100,200,0]                                        // D-30 AT
+	["rhs_KORD_MSV",25,40,0],											// KORD (6U16)
+	["rhs_KORD_high_MSV",25,40,0],											// KORD (6U16)
+	["ARMSCor_DShKM_mg2",25,40,0],											// DShKm Mini-Tripod
+	["LOP_AFR_Static_DSHKM",25,40,0],											// DShKm
+	["rhs_D30_msv",25,40,0],											// 2A18/D-30
+	["RHS_ZU23_MSV",25,40,0],											// ZU-23-2
+	["rhs_SPG9M_MSV",25,40,0],											// SPG-9M
+	["rhs_2b14_82mm_msv",25,40,0]											// 2B14 Podnos
 ];
 
 buildings = [
     ["Land_Cargo_House_V1_F",0,0,0],
     ["Land_Cargo_Patrol_V1_F",0,0,0],
     ["Land_Cargo_Tower_V1_F",0,0,0],
-    ["rhs_Flag_Russia_F",0,0,0],
-    ["rhs_Flag_vdv_F",0,0,0],
-    ["BWA3_Flag_Ger_F",0,0,0],
-    ["rhs_Flag_vmf_F",0,0,0],
+    ["lop_Flag_afr_F",0,0,0],
     ["Flag_White_F",0,0,0],
     ["Land_Medevac_house_V1_F",0,0,0],
     ["Land_Medevac_HQ_V1_F",0,0,0],
@@ -222,9 +209,9 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
-    ["RHS_Ural_Repair_VDV_01",325,0,75],                                // Ural Repair
-    ["RHS_Ural_Fuel_VDV_01",125,0,275],                                 // Ural Fuel
-    ["rhs_gaz66_ammo_msv",125,200,75],                                  // Gaz-66 Ammo
+    ["RHS_Ural_Repair_MSV_01",325,0,75],                                // Ural Repair
+    ["RHS_Ural_Fuel_MSV_01",125,0,275],                                 // Ural Fuel
+    ["rhs_gaz66_ammo_vmf",125,200,75],                                  // Gaz-66 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Container Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Container Fuel
     ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Container Ammo
@@ -238,82 +225,55 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "rhs_vdv_sergeant    ",
-    "rhs_vdv_rifleman",
-    "rhs_vdv_LAT",
-    "rhs_vdv_at",
-    "rhs_vdv_grenadier_alt",
-    "rhs_vdv_arifleman",
-    "rhs_vdv_arifleman",
-    "rhs_vdv_marksman",
-    "rhs_vdv_medic",
-    "rhs_vdv_engineer"
+    "LOP_AFR_Infantry_SL    ",
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_AT",
+    "LOP_AFR_Infantry_GL",
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_Marksman",
+    "LOP_AFRCiv_Soldier_Medic",
+    "LOP_AFR_Infantry_IED"
 ];
 
 // Heavy infantry squad.
 blufor_squad_inf = [
-    "rhs_vdv_sergeant    ",
-    "rhs_vdv_rifleman",
-    "rhs_vdv_LAT",
-    "rhs_vdv_grenadier_alt",
-    "rhs_vdv_arifleman",
-    "rhs_vdv_arifleman",
-    "rhs_vdv_machinegunner",
-    "rhs_vdv_marksman",
-    "rhs_vdv_medic",
-    "rhs_vdv_engineer"
+    "LOP_AFR_Infantry_SL    ",
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_AT",
+    "LOP_AFR_Infantry_GL",
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_AR",
+    "LOP_AFR_Infantry_Marksman",
+    "LOP_AFRCiv_Soldier_Medic",
+    "LOP_AFR_Infantry_IED"
 ];
 
 // AT specialists squad.
 blufor_squad_at = [
-    "rhs_vdv_sergeant    ",
-    "rhs_vdv_rifleman",
-    "rhs_vdv_LAT",
-    "rhs_vdv_at",
-    "rhs_vdv_at",
-    "rhs_vdv_at",
-    "rhs_vdv_medic",
-    "rhs_vdv_rifleman"
-];
-
-// AA specialists squad.
-blufor_squad_aa = [
-    "rhs_vdv_sergeant    ",
-    "rhs_vdv_rifleman",
-    "rhs_vdv_LAT",
-    "rhs_vdv_aa",
-    "rhs_vdv_aa",
-    "rhs_vdv_aa",
-    "rhs_vdv_medic",
-    "rhs_vdv_rifleman"
-];
-
-// Force recon squad.
-blufor_squad_recon = [
-    "rhs_vdv_recon_sergeant",
-    "rhs_vdv_rifleman",
-    "rhs_vdv_recon_grenadier",
-    "rhs_vdv_recon_at",
-    "rhs_vdv_recon_machinegunner",
-    "rhs_vdv_recon_machinegunner",
-    "rhs_vdv_recon_marksman",
-    "rhs_vdv_recon_marksman",
-    "rhs_vdv_recon_medic",
-    "rhs_vdv_recon_engineer"
+    "LOP_AFR_Infantry_SL    ",
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_AT",
+    "LOP_AFR_Infantry_AT",
+    "LOP_AFR_Infantry_AT",
+    "LOP_AFR_Infantry_AT",
+    "LOP_AFRCiv_Soldier_Medic",
+    "LOP_AFR_Infantry_Rifleman"
 ];
 
 // Paratroopers squad (The units of this squad will automatically get parachutes on build)
 blufor_squad_para = [
-    "rhs_vdv_recon_rifleman",
-    "rhs_vdv_recon_rifleman",
-    "rhs_vdv_recon_rifleman_lat",
-    "rhs_vdv_recon_rifleman",
-    "rhs_vdv_recon_rifleman",
-    "rhs_vdv_recon_rifleman_lat",
-    "rhs_vdv_recon_medic",
-    "rhs_vdv_recon_rifleman",
-    "rhs_vdv_recon_rifleman_lat",
-    "rhs_vdv_recon_marksman"
+    "LOP_AFR_Infantry_Rifleman",
+    "LOP_AFR_Infantry_Rifleman_2",
+    "LOP_AFR_Infantry_Rifleman_4",
+    "LOP_AFR_Infantry_Rifleman_5",
+    "LOP_AFR_Infantry_Rifleman_6",
+    "LOP_AFR_Infantry_Rifleman_7",
+    "LOP_AFRCiv_Soldier_Medic",
+    "LOP_AFR_Infantry_Rifleman_8",
+    "LOP_AFR_Infantry_GL",
+    "LOP_AFR_Infantry_Marksman"
 ];
 
 /*
@@ -322,21 +282,15 @@ blufor_squad_para = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 elite_vehicles = [
-    "rhs_t80ue1",                                                       // T-80UE1
-    "rhs_t90a_tv",                                                      // T-90A
-    "rhs_t90sab_tv",                                                    // T-90SA (2016)
-    "rhs_t14_tv",                                                       // T-14
-    "rhs_2s1_tv",                                                       // 2S1
-    "rhs_2s3_tv",                                                       // 2S3M1
-    "rhs_mi28n_vvsc",                                                   // Mi-28N
-    "O_UAV_02_dynamicLoadout_F",                                        // K40 Ababil
-    "O_T_UAV_04_CAS_F",                                                 // KH-3A
-    "RHS_Su25SM_vvsc",                                                  // Su-25SM
-    "rhs_mig29s_vvsc",                                                  // Mig-29S
-    "rhs_bmd4m_vdv",                                                    // BMD-4M
-    "rhs_bmd4ma_vdv",                                                   // BMD-4MA
-    "RHS_Ka52_vvsc",                                                    // Ka-52
-    "rhs_btr80a_vdv",                                                   // BTR-80A
-    "rhs_bmd2m",                                                        // BMD-2M (Berezhok)
-    "RHS_BM21_VDV_01"                                                   // BM-21 (Grad)
+	"rhs_2b14_82mm_msv",                        					 	// 2B14 Podnos. 82mm Mortar
+	"rhs_SPG9M_MSV",                        							// SPG-9M
+	"RHS_ZU23_MSV",                        								 // ZU-23-2
+	"rhs_D30_msv",                        								 // 2A18/D-30
+	"I_C_Offroad_02_AT_F",                      					  	 // Jeep Wrangler (SPG-9 with HE and HEAT)
+    "LOP_AFR_Landrover_SPG9",                        					  // Land Rover (SPG-9 PG9V HEAT)
+    "rhs_gaz66_zu23_vmf",                                    			 // GAZ-66 (ZU-23-2)
+    "rhs_bmp1_vdv",                                            		    // BMP-1
+	"rhsgref_tla_btr60",                         		  	 		   // BTR-60PB APC
+	"LOP_AFR_T55",                          			   			  // T-55A
+	"RHSGREF_A29B_HIDF"                          	    			 // A-29 Super Tucano
 ];

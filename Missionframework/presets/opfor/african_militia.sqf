@@ -62,7 +62,7 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
+	"LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
     "LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
 	"LOP_AM_OPF_UAZ_DshKM"                                              // UAZ-3151 (DShKM)
 ];
@@ -136,13 +136,14 @@ opfor_troup_transports = [
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "LOP_TKA_Mi8MT_Cargo",											// Mi-8MT (Cargo)
+    "O_UAV_01_F",													 // AR-2 Drone CSAT
+	"LOP_TKA_Mi8MT_Cargo",											// Mi-8MT (Cargo)
 	"RHS_Mi24P_vvs",                                              // MI-24P (GSh-30-2k/S8 KOM)
 	"RHS_Mi24V_vvs", 											//MI-24V (S-8 KOM and DF and a YakB-12.7)
 	"ARMSCor_Rooivalk_I" 											// AH-2 Rooivalk Mk-1F (F2 20mm Cannon and 9K121 Vikhr)
 ];
 
-// Enemy fixed-wings that will need to spawn in the air. //TODO remove?
+// Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
     "RHSGREF_A29B_HIDF"                                                  // A-29 Super Tucano
 ];
