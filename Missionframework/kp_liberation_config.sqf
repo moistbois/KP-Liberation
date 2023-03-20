@@ -37,6 +37,7 @@ KP_liberation_medical_vehicles = [
     "O_T_Truck_03_medical_ghex_F",
     "O_Truck_03_medical_F",
     "RHS_UH60M_MEV_d",
+	"rhs_gaz66_ap2_vmf",
     "RHS_UH60M_MEV",
     "RHS_UH60M_MEV2_d",
     "RHS_UH60M_MEV2",
@@ -762,10 +763,12 @@ KPLIB_aiResupplySources = [
 // Everything that can resupply other vehicles.
 vehicle_repair_sources = [
     "B_APC_Tracked_01_CRV_F",
+	"rhs_gaz66_repair_vmf",
     "B_Slingload_01_Repair_F",
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_Repair_F",
     "B_Truck_01_Repair_F",
+	"RHS_Ural_Repair_MSV_01",
     "BW_LKW15T_Repair_F",
     "C_Offroad_01_repair_F",
     "CUP_B_Kamaz_Repair_CDF",
@@ -804,10 +807,12 @@ vehicle_repair_sources = [
 
 vehicle_rearm_sources = [
     "B_APC_Tracked_01_CRV_F",
+	"rhs_gaz66_ammo_vmf",
     "B_Slingload_01_Ammo_F",
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_ammo_F",
     "B_Truck_01_ammo_F",
+	"RHS_Ural_Ammo_MSV_01",
     "BW_LKW15T_Ammo_F",
     "CUP_B_Kamaz_Reammo_CDF",
     "CUP_B_MTVR_Ammo_USA",
@@ -846,6 +851,7 @@ vehicle_rearm_sources = [
 vehicle_refuel_sources = [
     "B_APC_Tracked_01_CRV_F",
     "B_Slingload_01_Fuel_F",
+	"RHS_Ural_Fuel_MSV_01",
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_fuel_F",
     "B_Truck_01_fuel_F",
@@ -888,8 +894,10 @@ vehicle_refuel_sources = [
 // Classnames of boats, so they can be built on water.
 boats_names = [
     "B_Boat_Armed_01_minigun_F",
+	"C_Scooter_Transport_01_F",
     "B_Boat_Transport_01_F",
     "B_SDV_01_F",
+	"rhsgref_hidf_canoe",
     "B_T_Boat_Armed_01_minigun_F",
     "B_T_Boat_Transport_01_F",
     "O_Boat_Armed_01_hmg_F",
@@ -900,7 +908,9 @@ boats_names = [
     "CUP_B_RHIB_USMC",
     "CUP_B_RHIB2Turret_USMC",
     "CUP_B_LCU1600_USMC",
+	"I_C_Boat_Transport_02_F",
     "CUP_O_LCVP_SLA",
+	"rhs_bmk_t",
     "CUP_O_LCVP_VIV_SLA",
     "CUP_O_PBX_SLA",
     "rhsusf_mkvsoc",
