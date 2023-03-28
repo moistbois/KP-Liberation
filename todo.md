@@ -11,7 +11,15 @@
 
 ### For Doxus:
 - [ ] FFE implementation via Init.sqf (commented out). Refer to #Arty Setup
+Use this for reference?:
+- https://www.dropbox.com/s/wrnxfaa44fenqyx/FFE%201.17.zip?dl=0&file_subpath=%2FFFE+1.17%2FFFE+1.17.pdf
+- https://github.com/Pi123263/KP-Liberation/blob/master/init.sqf
+- https://github.com/Pi123263/KP-Liberation/blob/master/RYD_FFE/FFE.sqf
+- https://github.com/Pi123263/KP-Liberation/blob/master/RYD_FFE/FFE_fnc.sqf
+- https://github.com/Pi123263/KP-Liberation/blob/master/RYD_FFE/Shellview.sqf
+
 - [ ] Implement multiple spawn points
+-https://github.com/KillahPotatoes/KP-Liberation/issues/183#issuecomment-318406884
 
 ### Balancing
 - [x] set 0 chance of civilians injured spawning
