@@ -138,9 +138,6 @@ buildings = [
     ["Land_CampingChair_V1_F",0,0,0],
     ["Land_CampingChair_V2_F",0,0,0],
     ["Land_CampingTable_F",0,0,0],
-    ["MapBoard_altis_F",0,0,0],
-    ["MapBoard_stratis_F",0,0,0],
-    ["MapBoard_seismic_F",0,0,0],
     ["Land_Pallet_MilBoxes_F",0,0,0],
     ["Land_PaperBox_open_empty_F",0,0,0],
     ["Land_PaperBox_open_full_F",0,0,0],
@@ -162,6 +159,15 @@ buildings = [
     ["Land_BagFence_Long_F",0,0,0],
     ["Land_BagFence_Corner_F",0,0,0],
     ["Land_BagFence_End_F",0,0,0],
+	["Wall_FenW2_6_EP1",0,0,0],
+	["Fence_corrugated_plate",0,0,0],
+	["Fence_Ind_long",0,0,0],
+	["Fence_Ind",0,0,0],
+	["FenceWood",0,0,0],
+	["FenceWoodPalet",0,0,0],
+	["WireFence",0,0,0],
+	["Land_Mil_WiredFence_F",0,0,0],
+	["Land_Mil_WiredFence_Gate_F",0,0,0],
 	["Land_TentA_F",0,0,0],
 	["Land_TentLamp_01_standing_F",0,0,0],
     ["Land_BagBunker_Small_F",0,0,0],
@@ -189,6 +195,7 @@ buildings = [
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
     ["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
     ["Land_Razorwire_F",0,0,0],
+	["Wire",0,0,0],
     ["Land_ClutterCutter_large_F",0,0,0]
 ];
 
