@@ -456,7 +456,7 @@ KP_liberation_allowed_items_extension = [
     "ACE_PreloadedMissileDummy_Stinger_CUP",
     "ACE_PreloadedMissileDummy_Strela_2_CUP",
     "ACE_ReserveParachute",
-	//ACE Medical
+	//ACE Start
 	"ACE_CableTie",
 	"ACE_EarPlugs",
 	"ACE_wirecutter",
@@ -483,6 +483,7 @@ KP_liberation_allowed_items_extension = [
 	"ACE_quikclot",
 	"ACE_splint",
 	"ACE_surgicalKit",
+	//ACE End
     "BWA3_acc_LLM01_flash_tan",
     "BWA3_acc_LLM01_flash_underbarrel",
     "BWA3_acc_LLM01_flash",
