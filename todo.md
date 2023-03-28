@@ -7,6 +7,7 @@
 - [ ] Final map pass
 - [ ] Create FOB Templates
 - [ ] Hook cellphone into Init.sqf
+- [ ] Disable TI, NV, and tracking
 
 ### For Doxus:
 - [ ] FFE implementation via Init.sqf (commented out). Refer to #Arty Setup
