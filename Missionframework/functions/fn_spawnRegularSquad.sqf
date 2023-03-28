@@ -2,7 +2,7 @@
     File: fn_spawnRegularSquad.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
     Date: 2019-12-03
-    Last Update: 2023-03-03
+    Last Update: 2020-05-06
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -33,7 +33,7 @@ while {_spawnPos isEqualTo []} do {
     if (_i isEqualTo 10) exitWith {};
 };
 
-if (_spawnPos isEqualTo []) exitWith {
+if (_spawnPos isEqualTo zeroPos) exitWith {
     ["No suitable spawn position found."] call BIS_fnc_error;
     [format ["Couldn't find infantry spawn position for sector %1", _sector], "WARNING"] call KPLIB_fnc_log;
     grpNull
@@ -41,10 +41,10 @@ if (_spawnPos isEqualTo []) exitWith {
 
 // Spawn units of squad
 private _corrected_amount = round ((count _classnames) * ([] call KPLIB_fnc_getOpforFactor));
-private _grp = createGroup [KPLIB_side_enemy, true];
+private _grp = createGroup [GRLIB_side_enemy, true];
 {
     if (_forEachIndex < _corrected_amount) then {
-        [_x, _spawnPos, _grp, "PRIVATE", 10] call KPLIB_fnc_createManagedUnit;
+        [_x, _spawnPos, _grp] call KPLIB_fnc_createManagedUnit;
     };
 } forEach _classnames;
 

@@ -2,7 +2,7 @@
     File: fn_spawnVehicle.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
     Date: 2019-12-03
-    Last Update: 2023-03-03
+    Last Update: 2020-05-06
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -45,14 +45,14 @@ if (_precise) then {
     };
 };
 
-if (_spawnPos isEqualTo []) exitWith {
+if (_spawnPos isEqualTo zeroPos) exitWith {
     ["No suitable spawn position found."] call BIS_fnc_error;
     [format ["Couldn't find spawn position for %1 around position %2", _classname, _pos], "WARNING"] call KPLIB_fnc_log;
     objNull
 };
 
 // If it's a chopper, spawn it flying
-if (_classname in KPLIB_o_helicopters) then {
+if (_classname in opfor_choppers) then {
     _newvehicle = createVehicle [_classname, _spawnpos, [], 0, 'FLY'];
     _newvehicle flyInHeight (80 + (random 120));
     _newvehicle allowDamage false;
@@ -77,10 +77,10 @@ if (_classname in KPLIB_o_helicopters) then {
 [_newvehicle] call KPLIB_fnc_addObjectInit;
 
 // Spawn crew of vehicle
-if (_classname in KPLIB_o_militiaVehicles) then {
+if (_classname in militia_vehicles) then {
     [_newvehicle] call KPLIB_fnc_spawnMilitiaCrew;
 } else {
-    private _grp = createGroup [KPLIB_side_enemy, true];
+    private _grp = createGroup [GRLIB_side_enemy, true];
     private _crew = units (createVehicleCrew _newvehicle);
     _crew joinSilent _grp;
     sleep 0.1;
