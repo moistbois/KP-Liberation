@@ -26,7 +26,9 @@
 ##### SPOTTERS:
 ###### //VEHICLES:
 "ARMSCor_Landrover_SADF_I",											// Land Rover
+
 "ARMSCor_Rooivalk_I" 											// AH-2 Rooivalk Mk-1F (F2 20mm Cannon and 9K121 Vikhr)
+
 "LOP_AFR_OPF_BTR60",                                                // BTR-60PB
 "LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
 "LOP_AFR_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
