@@ -7,18 +7,19 @@
 - [x] i think i fucked up and put the deploy spawn of the mission where the operation base is
 - [x] add lights to checkpoint alex
 - [x] add capture south of swagga airport by fuel station. not covered by swagga radius
-- [ ] distribute things according to map. 5 factories, 5 capitals, 12 radio towers, 9 military bases, 13 small cities.
+- [x] distribute things according to map. 5 factories, 5 capitals, 12 radio towers, 9 military bases, 13 small cities.
 - [ ] hook cellphone into init.sqf
-- [ ] look into enemy artillery using Fire for Effect: The God of War script
-- [ ] change objects (i.e. huron container and little birds) to more suitable ones
-- [ ] set arsenals
+- [x] look into enemy artillery. Use God of War FFE or LAMBS Artillery Registration
+- [x] change objects (i.e. huron container and little birds) to more suitable ones
+- [x] set arsenals
 - [ ] set build menu
-- [ ] set objects
+- [ ] create FOB Templates
+- [x] set objects
 - [x] create radio playlist
-- [ ] create mod preset for users
+- [x] create mod preset for users
 
 ### Balancing
-- [ ] set 0 chance of civlians injured spawning
+- [x] set 0 chance of civlians injured spawning
 - [ ] set sector capture popularity boost to miniscule
 - [ ] set building destruction penalty to damaged
 
