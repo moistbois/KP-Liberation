@@ -107,8 +107,17 @@ GRLIB_arsenal_magazines = [
 	"rhs_mag_nspd",
 	"rhs_mag_rdg2_white",
 	"rhs_mag_rgn",
+	"rhsgref_mag_rkg3em",
 	"rhs_mag_rgo",
-	"rhs_mag_f1"
+	"rhs_mag_f1",
+	//Explosives
+	"rhs_mine_Mk2_tripwire_mag",
+	"rhs_mine_mk2_pressure_mag",
+	"ClaymoreDirectionalMine_Remote_Mag",
+	"IEDLandSmall_Remote_Mag",
+	"IEDUrbanSmall_Remote_Mag",
+	"IEDLandBig_Remote_Mag",
+	"IEDUrbanBig_Remote_Mag"
 ];
 
 GRLIB_arsenal_items = [
@@ -284,10 +293,12 @@ GRLIB_arsenal_items = [
 	"ACE_Altimeter",
 	"TFAR_microdagr",
 // ACE items
+	"ACE_Banana",
 	"ACE_DefusalKit",
 	"ACE_Flashlight_XL50",
 	"ACE_LIB_FireCord",
-
+	"ACE_Cellphone",
+	"ACE_DeadManSwitch",
 	"SOL_Phone",
 	"ACE_WaterBottle",
 // Weapon addons
