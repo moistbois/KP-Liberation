@@ -77,7 +77,7 @@ opfor_vehicles = [
 	"LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_AFR_OPF_BTR60",                                               // BTR-60PB
     "LOP_AFR_OPF_T55",                                                 // T55A
-    "rhsgref_ins_zsu234",                                               // ZSU-23-4V AA 
+    "rhsgref_ins_zsu234",                                               // ZSU-23-4V AA
 	"rhs_KORD_high_MSV",												// KORD (6U16) (12.7x108mm)
 	"RHS_ZU23_MSV",														// ZU-23-2 (23×152mm AA)
 	"rhs_D30_msv"														// 2A18/D-30 (122mm towed howitzer)
@@ -105,10 +105,10 @@ opfor_battlegroup_vehicles = [
     "LOP_AFR_OPF_T55",                                                 // T55A
     "LOP_AFR_OPF_T72BB",                                               // T72B
     "rhsgref_ins_zsu234",                                              // ZSU-23-4V (AA)
-	"rhs_2b14_82mm_msv",												// 2B14 Podnos (82mm Mortar)
     "LOP_TKA_Mi8MTV3_FAB",                                              // Mi-8MTV-3 (FAB)
 	"LOP_TKA_Mi24V_AT",                                                 // Mi-24T (AT)
     "LOP_TKA_Mi24V_UPK23",                                               // Mi-24V (UPK)
+	"rhs_2b14_82mm_msv",												// 2B14 Podnos (82mm Mortar)
 	"rhs_D30_msv"														// 2A18/D-30 (122mm towed howitzer)
 ];
 
@@ -121,7 +121,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"ARMSCor_Landrover_SADF_I",											// Land Rover
 	"RHS_Ural_Open_MSV_01",                                            // URAL-4320 (Open)
 	"rhssaf_army_o_ural_open",                                           // Ural-375D (Open)
-    "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo) //TODO slightly changed Takistani helis (from isis templaye still)
+    "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo) 
 	"rhs_KORD_high_MSV",												// KORD (6U16) (12.7x108mm)
 	"RHS_ZU23_MSV",														// ZU-23-2 (23×152mm AA)
 	"rhs_D30_msv"														// 2A18/D-30 (122mm towed howitzer)
@@ -137,7 +137,9 @@ opfor_troup_transports = [
     "LOP_AFR_OPF_BTR60",                                               // BTR-60PB
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
 	"LOP_TKA_Mi24V_AT",                                                 // Mi-24T (AT)
+	"RHS_Mi24P_vvs",                                              // MI-24P (GSh-30-2k/S8 KOM)
     "LOP_TKA_Mi24V_UPK23",                                               // Mi-24V (UPK)
+	"RHS_Mi24V_vvs", 											//MI-24V (S-8 KOM and DF and a YakB-12.7)
 	"LOP_TKA_Mi8MTV3_FAB"                                              // Mi-8MTV-3 (FAB)
 ];
 
