@@ -128,5 +128,23 @@ KPLIB_objectInits = [
             _this allowFleeing 0;
         },
         true
+    ],
+    // Disable GPS tracking
+    [
+        ["AllVehicles"],
+        {findDisplay 12 displayCtrl 1016) ctrlShow false;},
+        true
+    ],
+	  // Disable Thermals
+    [
+        ["AllVehicles"],
+        {this disableTIEquipment true;}
+    ],
+	  // Disable Thermals
+    [
+        ["AllVehicles"],
+        {this disableNVGEquipment true;}
     ]
+
+
 ];
