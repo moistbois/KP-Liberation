@@ -49,7 +49,7 @@
             "KP_liberation_cr_building_penalty": 3,
             "KP_liberation_cr_vehicle_penalty": 2,
             "KP_liberation_cr_resistance_penalty": 3,
-            "KP_liberation_cr_wounded_chance": 0,
+            "KP_liberation_cr_wounded_chance": 1,
             "KP_liberation_cr_wounded_gain": 2
         },
         "workshopId": ""        
