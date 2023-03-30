@@ -2,10 +2,10 @@
 
 ## Chongo:
 ### For Carl:
-- [ ] Balance Pass 2 (Arsenal)
-- [ ] LAMBS Settings testing
-- [ ] Final map pass
-- [ ] Create FOB Templates
+- [x] Balance Pass 2 (Arsenal)
+- [x] LAMBS Settings testing
+- [x] Final map pass
+- [x] Create FOB Templates
 - [ ] Hook cellphone into Init.sqf
 - [ ] Disable TI, NV, and tracking
 
@@ -21,15 +21,8 @@ Use this for reference?:
 - [ ] Implement multiple spawn points
 -https://github.com/KillahPotatoes/KP-Liberation/issues/183#issuecomment-318406884
 
-### Balancing
-- [x] set 0 chance of civilians injured spawning
-- [ ] set sector capture popularity boost to miniscule
-- [ ] set building destruction penalty to damaged
+### Playthrough Notes:
 
-### Testing
-- [ ] Vehicles:
-  - [ ] no conflicts of BLUFOR vehicles due to using CIV/OPFOR models
-  - [ ] respawning civilian vehicles on restart (mobile spawn aka Huron)
 
 #### Arty Setup
 ##### SPOTTERS:
