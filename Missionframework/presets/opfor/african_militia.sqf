@@ -39,8 +39,8 @@ opfor_transport_truck = "LOP_TKA_Ural";                                 // Ural-
 opfor_ammobox_transport = "LOP_TKA_Ural_open";                          // Ural-4320 (Open) -> Has to be able to transport resource crates!
 opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";                              // Ural-4320 (Fuel)
 opfor_ammo_truck = "rhs_gaz66_ammo_msv";                                // GAZ-66 (Ammo)
-opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";             // Taru Fuel Pod
-opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";             // Taru Ammo Pod
+opfor_fuel_container = "Land_Ind_TankSmall2";            				 // Cargo Container
+opfor_ammo_container = "Misc_Cargo1B_military";          				// Wooden and Metal Ammo Crates
 opfor_flag = "lop_Flag_afr_F";                                          // Flag
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
