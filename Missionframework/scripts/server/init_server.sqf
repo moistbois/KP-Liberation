@@ -130,6 +130,11 @@ execVM "scripts\server\asymmetric\init_module.sqf";
 // Groupcheck for deletion when empty
 execVM "scripts\server\offloading\group_diag.sqf";
 
+//Phone
+//SOL_var_AdressList = 1
+//SOL_var_allowRequest = false
+
+
 {
     if ((_x != player) && (_x distance (markerPos GRLIB_respawn_marker) < 200 )) then {
         deleteVehicle _x;
