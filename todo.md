@@ -6,6 +6,7 @@
 - [x] LAMBS Settings testing
 - [x] Final map pass
 - [x] Create FOB Templates
+- [ ] Extra spot at 098049
 - [ ] Hook cellphone into Init.sqf
 - [ ] Disable TI, NV, and tracking
 
