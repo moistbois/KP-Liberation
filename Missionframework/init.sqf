@@ -22,7 +22,7 @@ if (KPPLM_CBA && KP_liberation_playermenu) then {
     [] execVM "GREUH\scripts\GREUH_activate.sqf";
 };
 
-[] execVM "disableThermals.sqf";
+//[] execVM "disableThermals.sqf";
 
 //[] execVM "RYD_FFE\FFE.sqf";
 

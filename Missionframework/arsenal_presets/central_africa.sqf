@@ -26,6 +26,7 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_rpk74m",
 	"hlc_rifle_L1A1SLR",
 	"hlc_rifle_FAL5000",
+	"rhs_weap_Izh18",
 	"hlc_rifle_g3a3",
 	"rhs_weap_savz61",
 	"ARMSCor_Uzi",
