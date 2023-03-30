@@ -116,6 +116,11 @@ GRLIB_arsenal_magazines = [
 	//M1 Garand
 	"rhsgref_8Rnd_762x63_M2B_M1rifle",
 	"rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle",
+	//Lee Enfield
+	"rhsusf_20Rnd_762x51_m118_special_Mag",
+	"rhsusf_20Rnd_762x51_m62_Mag",
+	"rhsusf_20Rnd_762x51_m80_Mag",
+	"rhsusf_20Rnd_762x51_m993_Mag",
 	//RPG7
 	"rhs_rpg7_PG7VL_mag",
 	//Igla
