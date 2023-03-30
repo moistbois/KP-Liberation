@@ -758,6 +758,7 @@ KPLIB_aiResupplySources = [
     "B_Slingload_01_Ammo_F",
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_ammo_F",
+	"Misc_Cargo1B_military",
     "B_Truck_01_ammo_F",
     "BW_LKW15T_Ammo_F",
     "CUP_B_Kamaz_Reammo_CDF",
@@ -843,6 +844,7 @@ vehicle_repair_sources = [
 vehicle_rearm_sources = [
     "B_APC_Tracked_01_CRV_F",
 	"rhs_gaz66_ammo_vmf",
+	"Misc_Cargo1B_military",
     "B_Slingload_01_Ammo_F",
     "B_T_APC_Tracked_01_CRV_F",
     "B_T_Truck_01_ammo_F",
@@ -888,6 +890,7 @@ vehicle_refuel_sources = [
     "B_Slingload_01_Fuel_F",
 	"RHS_Ural_Fuel_MSV_01",
     "B_T_APC_Tracked_01_CRV_F",
+	"Land_Ind_TankSmall2",
     "B_T_Truck_01_fuel_F",
     "B_Truck_01_fuel_F",
     "BW_LKW15T_Fuel_F",
