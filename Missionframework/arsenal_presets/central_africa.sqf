@@ -124,6 +124,8 @@ GRLIB_arsenal_magazines = [
 	"rhsusf_20Rnd_762x51_m993_Mag",
 	//RPG7
 	"rhs_rpg7_PG7VL_mag",
+	"rhs_rpg7_OG7V_mag",
+	"RPG7_F",
 	//Igla
 	"rhs_mag_9k38_rocket",
 	//Handguns
