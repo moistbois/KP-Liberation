@@ -6,24 +6,20 @@ class EditorData
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
 	toggles=609;
-	mods[]=
-	{
-		"3denEnhanced"
-	};
 	class ItemIDProvider
 	{
 		nextID=10463;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1166;
+		nextID=1262;
 	};
 	class Camera
 	{
-		pos[]={3645.4507,329.58041,10064.835};
-		dir[]={0.080992594,-0.33262384,0.93957835};
-		up[]={0.028566645,0.94305789,0.33139664};
-		aside[]={0.99630767,-2.2992026e-008,-0.085882455};
+		pos[]={12813.801,99.077377,4932.957};
+		dir[]={0.26874784,-0.55106491,-0.79002678};
+		up[]={0.17747304,0.83445781,-0.52170885};
+		aside[]={-0.94673884,1.762528e-007,-0.32205623};
 	};
 };
 binarizationWanted=0;
@@ -532,7 +528,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12839.082,49.931488,4881.3145};
+						position[]={12839.082,49.931438,4881.3149};
 						angles[]={0,6.0991402,0};
 					};
 					side="West";
@@ -540,7 +536,7 @@ class Mission
 					class Attributes
 					{
 						rank="COLONEL";
-						init="removeallWeapons this; removebackpack this; this setVariable ['ace_medical_medicClass', 1]; this setVariable ['ACE_isEngineer', 1];";
+						init="removeallWeapons this; removebackpack this;";
 						name="commandant";
 						description="Platoon Leader (Commander)";
 						isPlayer=1;
@@ -557,10 +553,22 @@ class Mission
 					};
 					id=1;
 					type="B_officer_F";
-					atlOffset=4.9591064e-005;
 					class CustomAttributes
 					{
 						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -573,7 +581,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						nAttributes=2;
 					};
 				};
 				class Item1
@@ -581,7 +589,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12840.428,49.931488,4880.5449};
+						position[]={12840.428,49.931438,4880.5449};
 						angles[]={0,6.1139932,0};
 					};
 					side="West";
@@ -604,10 +612,22 @@ class Mission
 					};
 					id=2;
 					type="B_Soldier_SL_F";
-					atlOffset=4.9591064e-005;
 					class CustomAttributes
 					{
 						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -620,7 +640,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						nAttributes=2;
 					};
 				};
 			};
@@ -628,7 +648,6 @@ class Mission
 			{
 			};
 			id=0;
-			atlOffset=4.9591064e-005;
 		};
 		class Item1
 		{
@@ -732,7 +751,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={12834.576,49.931442,4878.373};
+						position[]={12834.576,49.931438,4878.373};
 					};
 					side="West";
 					flags=5;
@@ -752,10 +771,22 @@ class Mission
 					};
 					id=6;
 					type="B_engineer_F";
-					atlOffset=3.8146973e-006;
 					class CustomAttributes
 					{
 						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -768,7 +799,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						nAttributes=2;
 					};
 				};
 				class Item3
