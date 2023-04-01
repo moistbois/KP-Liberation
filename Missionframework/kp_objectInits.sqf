@@ -144,6 +144,12 @@ KPLIB_objectInits = [
     [
         ["AllVehicles"],
         {_this disableNVGEquipment true;}
+    ],
+    //Add Nissan ammo
+    [
+        ["LOP_AFR_Nissan_PKM", "LOP_AFR_OPF_Nissan_PKM"],
+        {_this addMagazineTurret ["rhs_mag_762x54mm_100", [0]];_this addMagazineTurret ["rhs_mag_762x54mm_100", [0]];
+        _this addMagazineTurret ["rhs_mag_762x54mm_100", [0]];_this addMagazineTurret ["rhs_mag_762x54mm_100", [0]];}
     ]
 
 ];
