@@ -15,6 +15,7 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_ak74",
 	"arifle_AKS_F",
 	"rhs_weap_aks74",
+	"rhs_weap_m76",
 	"rhs_weap_aks74u",
 	"rhs_weap_savz58p",
 	"rhs_weap_savz58p_black",
@@ -32,7 +33,7 @@ GRLIB_arsenal_weapons = [
 	"ARMSCor_Uzi",
 	"rhs_weap_m3a1",
 	"rhs_weap_m3a1_specops",
-	"LOP_Weap_LeeEnfield_railed",
+	//"LOP_Weap_LeeEnfield_railed",
 	//Launchers
 	"rhs_weap_rpg26",
 	"launch_RPG7_F",
@@ -117,13 +118,14 @@ GRLIB_arsenal_magazines = [
 	//M1 Garand
 	"rhsgref_8Rnd_762x63_M2B_M1rifle",
 	"rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle",
-	//Lee Enfield
+	//Lee Enfield - MAYBE REMOVE?
 	"rhsusf_20Rnd_762x51_m118_special_Mag",
 	"rhsusf_20Rnd_762x51_m62_Mag",
 	"rhsusf_20Rnd_762x51_m80_Mag",
 	"rhsusf_20Rnd_762x51_m993_Mag",
 	//RPG7
 	"rhs_rpg7_PG7VL_mag",
+	"rhs_rpg7_TBG7V_mag",
 	"rhs_rpg7_OG7V_mag",
 	"RPG7_F",
 	//Igla
@@ -147,6 +149,12 @@ GRLIB_arsenal_magazines = [
 	"rhs_mag_f1",
 	"rhs_mag_rgd5",
 	//Explosives
+	"rhs_ec75_mag",
+	"rhs_ec75_sand_mag",
+	"rhs_ec200_mag",
+	"rhs_ec200_sand_mag",
+	"rhs_ec400_mag",
+	"rhs_ec400_sand_mag",
 	"rhs_mine_Mk2_tripwire_mag",
 	"rhs_mine_mk2_pressure_mag",
 	"ClaymoreDirectionalMine_Remote_Mag",
@@ -369,6 +377,8 @@ GRLIB_arsenal_items = [
 	"ItemWatch",
 	"ACE_Altimeter",
 	"TFAR_microdagr",
+	"ACE_Clacker",
+	"ACE_M26_Clacker",
 // ACE items
 	"ACE_Banana",
 	"ACE_DefusalKit",
@@ -380,6 +390,7 @@ GRLIB_arsenal_items = [
 	"ACE_WaterBottle",
 // Weapon addons
 	"rhs_acc_dtk",
+	"rhs_acc_dtk1l",
     "rhs_acc_dtk1",
     "rhs_acc_dtk2",
     "rhs_acc_dtk3",
