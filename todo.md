@@ -33,6 +33,9 @@ Use this for reference?:
 ###### Server Config
 - Check mods and server list so shit runs on the server
 - Add sleep at tent
+#### NewFixes:
+- Add MSP Ural to transports
+- Check why pilots are immportal XD
 
 
 #### Arty Setup
