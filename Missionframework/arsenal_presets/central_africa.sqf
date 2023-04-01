@@ -123,6 +123,9 @@ GRLIB_arsenal_magazines = [
 	"rhsusf_20Rnd_762x51_m62_Mag",
 	"rhsusf_20Rnd_762x51_m80_Mag",
 	"rhsusf_20Rnd_762x51_m993_Mag",
+    //SVD
+    "rhs_10Rnd_762x54mmR_7N1",
+    "rhs_10Rnd_762x54mmR_7N14",
 	//RPG7
 	"rhs_rpg7_PG7VL_mag",
 	"rhs_rpg7_TBG7V_mag",
