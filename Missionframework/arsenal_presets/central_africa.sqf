@@ -124,6 +124,8 @@ GRLIB_arsenal_magazines = [
 	"rhsusf_20Rnd_762x51_m993_Mag",
 	//RPG7
 	"rhs_rpg7_PG7VL_mag",
+	"rhs_rpg7_OG7V_mag",
+	"RPG7_F",
 	//Igla
 	"rhs_mag_9k38_rocket",
 	//Handguns
@@ -281,6 +283,7 @@ GRLIB_arsenal_items = [
 	"V_Pocketed_black_F",
 	"V_Pocketed_coyote_F",
 	"V_Pocketed_olive_F",
+	"V_SmershVest_01_radio_F",
 	"LOP_V_6B23_OLV",
 	"LOP_V_6Sh92_Vog_WDL",
 	"LOP_V_6Sh92_Vog_OLV",
@@ -419,7 +422,7 @@ GRLIB_arsenal_backpacks = [
 	"rhs_tortila_black",
 	"rhs_tortila_emr",
 	"ACE_TacticalLadder_Pack",
-	"ARMSCor_B_CRRC_backpack",
+	//"ARMSCor_B_CRRC_backpack",
 	"rhs_medic_bag",
 	"TFAR_rt1523g_bwmod",
 	"B_Messenger_Black_F",

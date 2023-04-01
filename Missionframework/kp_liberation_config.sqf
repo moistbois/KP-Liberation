@@ -458,6 +458,7 @@ KP_liberation_allowed_items_extension = [
     "ACE_ReserveParachute",
 	//ACE Start
 	"ACE_CableTie",
+	"ToolKit",
 	"ACE_EarPlugs",
 	"ACE_wirecutter",
 	"ACE_MapTools",

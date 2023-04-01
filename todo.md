@@ -23,6 +23,16 @@ Use this for reference?:
 -https://github.com/KillahPotatoes/KP-Liberation/issues/183#issuecomment-318406884
 
 ### Playthrough Notes:
+###### Build:
+- Add campfire
+- add chairs
+- remove huge tower
+###### Etc
+- Artillery still pops up when spawning. Why?
+###### Arsenal
+###### Server Config
+- Check mods and server list so shit runs on the server
+- Add sleep at tent
 
 
 #### Arty Setup
