@@ -44,13 +44,12 @@
             "KP_liberation_preset_resistance": 2,
             "KP_liberation_preset_civilians": 1,
             "KP_liberation_arsenal": 17,
-
-            "GRLIB_surrender_chance": 40,
+            "GRLIB_surrender_chance": 5,
             "KP_liberation_cr_building_penalty": 3,
-            "KP_liberation_cr_vehicle_penalty": 2,
-            "KP_liberation_cr_resistance_penalty": 3,
+            "KP_liberation_cr_vehicle_penalty": 5,
+            "KP_liberation_cr_resistance_penalty": 5,
             "KP_liberation_cr_wounded_chance": 1,
-            "KP_liberation_cr_wounded_gain": 2
+            "KP_liberation_cr_wounded_gain": 1
         },
         "workshopId": ""        
     },
