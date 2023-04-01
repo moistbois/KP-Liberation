@@ -69,7 +69,6 @@ light_vehicles = [
 	["LOP_AFR_Landrover_M2",75,40,45],                                 // Land Rover (M2)
 	["C_Offroad_02_unarmed_F",25,0,45],                                 // Jeep Wrangler
 	["I_C_Offroad_02_LMG_F",75,25,45],                              // Jeep Wrangler (FN Minimi SPW LMG)
-	["LOP_AFR_Nissan_PKM",75,40,45],                                 // Nissan (PKM)
 	["RHS_Ural_Open_MSV_01",50,0,75],                                 // URAL-4320 (Open)
 	["rhs_gaz66_vmf",45,0,60],                                 // GAZ-66
 	["rhsgref_hidf_canoe",0,0,0],                                 // Canoe
@@ -93,8 +92,8 @@ air_vehicles = [
 	["ARMSCor_AlouetteIII_SF_ZADF_I",100,0,25],                            // Alouette III
 	["rhs_uh1h_hidf_unarmed",100,0,25],                                // UH-1H
 	["rhs_uh1h_hidf",120,280,25],                                             // UH-1H (M240Hx2)
-	["RHS_Mi8mt_vvs",130,180,30],                                             // Mi-8MT (PKT (7.62x54mm))
-	["RHS_Mi24Vt_vvs",135,120,30],                                             // MI-24VT (YakB-12.7)
+	["RHS_Mi8mt_vvs",130,300,30],                                             // Mi-8MT (PKT (7.62x54mm))
+	["RHS_Mi24Vt_vvs",140,300,30],                                             // MI-24VT (YakB-12.7)
 	["RHS_AN2",100,0,25],                                             // AN2
 	["RHSGREF_A29B_HIDF",300,100,125]                                             // A-29 Super Tucano
 
@@ -113,17 +112,15 @@ static_vehicles = [
 ];
 
 buildings = [
-    ["Land_Cargo_House_V1_F",0,0,0],
-    ["Land_Cargo_Patrol_V1_F",0,0,0],
-    ["Land_Cargo_Tower_V1_F",0,0,0],
+    ["Land_Slum_01_F",0,0,0],
+    ["Land_Cargo_Patrol_V2_F",0,0,0],
+    ["Land_GuardTower_01_F",0,0,0],
     ["lop_Flag_afr_F",0,0,0],
     ["Flag_White_F",0,0,0],
-    ["Land_Medevac_house_V1_F",0,0,0],
-    ["Land_Medevac_HQ_V1_F",0,0,0],
-    ["Flag_RedCrystal_F",0,0,0],
-    ["CamoNet_BLUFOR_F",0,0,0],
-    ["CamoNet_BLUFOR_open_F",0,0,0],
-    ["CamoNet_BLUFOR_big_F",0,0,0],
+    ["Land_MedicalTent_01_tropic_closed_F",0,0,0],
+    ["CamoNet_OPFOR_F",0,0,0],
+    ["CamoNet_OPFOR_open_F",0,0,0],
+    ["CamoNet_OPFOR_big_F",0,0,0],
     ["Land_PortableLight_single_F",0,0,0],
     ["Land_PortableLight_double_F",0,0,0],
     ["Land_LampSolar_F",0,0,0],
@@ -138,6 +135,34 @@ buildings = [
     ["Land_CampingChair_V1_F",0,0,0],
     ["Land_CampingChair_V2_F",0,0,0],
     ["Land_CampingTable_F",0,0,0],
+	["Land_Laptop_unfolded_F",0,0,0],
+	["Land_WaterCooler_01_old_F",0,0,0],
+	["Land_BakedBeans_F",0,0,0],
+	["Land_CerealsBox_F",0,0,0],
+	["Land_Campfire_F",0,0,0],
+	["Land_TentA_Fd",0,0,0],
+	["Land_KBud",0,0,0],
+	["Satelit",0,0,0],
+	["Land_Garbage_square5_F",0,0,0],
+	["Land_GarbageBags_F",0,0,0],
+	["Land_Garbage_square3_F",0,0,0],
+	["Land_HumanSkull_F",0,0,0],
+	["Land_PalmTotem_02_F",0,0,0],
+	["plp_bo_BottleGin",0,0,0],
+	["CUP_tv_a",0,0,0],
+	["Land_PartyTent_01_F",0,0,0],
+	["Land_Microwave_01_F",0,0,0],
+	["plp_bo_ChainOfLightsMono",0,0,0],
+	["plp_bo_ChainOfLightsMonoShort",0,0,0],
+	["Land_Leseni4x",0,0,0],
+	["Land_Leseni2x",0,0,0],
+	["Computer",0,0,0],
+	["Land_Water_pipe_EP1",0,0,0],
+	["Misc_TyreHeapEP1",0,0,0],
+	["Misc_Wall_lamp",0,0,0],
+	["Land_Slum_02_F",0,0,0],
+	["CUP_case_bedroom_b",0,0,0],
+	["CUP_postel_manz_kov",0,0,0],
     ["Land_Pallet_MilBoxes_F",0,0,0],
     ["Land_PaperBox_open_empty_F",0,0,0],
     ["Land_PaperBox_open_full_F",0,0,0],
