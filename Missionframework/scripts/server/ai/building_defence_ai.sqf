@@ -2,9 +2,9 @@ params ["_unit", ["_sector", ""]];
 
 _unit setUnitPos "UP";
 _unit disableAI "PATH";
-private _move_is_disabled = false;
+private _move_is_disabled = true;
 private _hostiles = 0;
-private _ratio = 0.4;
+private _ratio = 0.2;
 private _range = GRLIB_capture_size;
 
 while {_move_is_disabled && local _unit && alive _unit && !(captive _unit)} do {
