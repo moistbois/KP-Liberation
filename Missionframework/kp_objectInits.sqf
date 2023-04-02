@@ -129,6 +129,14 @@ KPLIB_objectInits = [
         },
         true
     ],
+
+    // Attempt to set HIDF pilots to have damage
+    [
+        ["rhsgref_hidf_helipilot"],
+        {
+            _this allowDamage  true;
+        },
+    ],
     
 	//Workbench
     [
