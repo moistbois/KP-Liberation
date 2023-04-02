@@ -186,6 +186,8 @@ buildings = [
 	["CUP_case_bedroom_b",0,0,0],
 	["CUP_postel_manz_kov",0,0,0],
     ["Land_Pallet_MilBoxes_F",0,0,0],
+	["Land_WoodenTable_large_F",0,0,0],
+	["Land_WoodenTable_small_F",0,0,0],
     ["Land_PaperBox_open_empty_F",0,0,0],
     ["Land_PaperBox_open_full_F",0,0,0],
     ["Land_PaperBox_closed_F",0,0,0],
