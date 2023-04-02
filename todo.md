@@ -36,6 +36,7 @@ Use this for reference?:
 #### NewFixes:
 - Add MSP Ural to transports
 - Check why pilots are immportal XD
+https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework.html
 
 
 #### Arty Setup
