@@ -129,22 +129,34 @@ KPLIB_objectInits = [
         },
         true
     ],
+    
+	//Workbench
+    [
+        ["Land_Workbench_01_F"], 
+        {
+            _this setVariable ["ace_isRepairFacility", 1, true];
+        }
+    ],
+	
     // Disable GPS tracking
     [
         ["AllVehicles"],
         {(findDisplay 12 displayCtrl 1016) ctrlShow false;},
         true
     ],
+	
 	  // Disable Thermals
     [
         ["AllVehicles"],
         {_this disableTIEquipment true;}
     ],
+	
 	  // Disable Thermals
     [
         ["AllVehicles"],
         {_this disableNVGEquipment true;}
     ],
+	
     //Add Nissan ammo
     [
         ["LOP_AFR_Nissan_PKM", "LOP_AFR_OPF_Nissan_PKM"],
