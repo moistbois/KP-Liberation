@@ -195,7 +195,6 @@ buildings = [
     ["Land_DieselGroundPowerUnit_01_F",0,0,0],
     ["Land_ToolTrolley_02_F",0,0,0],
     ["Land_WeldingTrolley_01_F",0,0,0],
-    ["Land_Workbench_01_F",0,0,0],
     ["Land_GasTank_01_blue_F",0,0,0],
     ["Land_GasTank_01_khaki_F",0,0,0],
     ["Land_GasTank_01_yellow_F",0,0,0],
@@ -270,6 +269,7 @@ support_vehicles = [
     ["RHS_Ural_Fuel_MSV_01",50,0,160],                                 // Ural Fuel
     ["rhs_gaz66_ammo_vmf",40,100,45],                                  // Gaz-66 Ammo
     ["B_Slingload_01_Repair_F",50,0,0],                                // Huron Container Repair
+	["Land_Workbench_01_F",50,0,0], 									// Workbench Repair
     ["B_Slingload_01_Fuel_F",0,0,50],                                 // Huron Container Fuel
     ["B_Slingload_01_Ammo_F",0,50,0]                                  // Huron Container Ammo
 ];

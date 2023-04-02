@@ -828,6 +828,7 @@ vehicle_repair_sources = [
     "O_Heli_Transport_04_repair_F",
     "O_T_Truck_03_repair_ghex_F",
     "O_Truck_03_repair_F",
+	"Land_Workbench_01_F",
     "RHS_Ural_Repair_VDV_01",
     "rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
     "rhsusf_M1239_MK19_Deploy_socom_d",
