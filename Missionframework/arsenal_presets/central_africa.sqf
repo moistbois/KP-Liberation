@@ -23,8 +23,9 @@ GRLIB_arsenal_weapons = [
 	"rhs_weap_savz58v_black",
 	"rhs_weap_m92",
 	"rhs_weap_pkm",
-	"rhs_weap_fnmag",
+	//"rhs_weap_fnmag",
 	"rhs_weap_rpk74m",
+	"rhs_weap_m24sws_d",
 	"hlc_rifle_L1A1SLR",
 	"hlc_rifle_FAL5000",
 	"rhs_weap_Izh18",
@@ -33,6 +34,7 @@ GRLIB_arsenal_weapons = [
 	"ARMSCor_Uzi",
 	"rhs_weap_m3a1",
 	"rhs_weap_m3a1_specops",
+	"rhs_weap_m24sws_d",
 	//"LOP_Weap_LeeEnfield_railed",
 	//Launchers
 	"rhs_weap_rpg26",
@@ -401,6 +403,9 @@ GRLIB_arsenal_items = [
 	"rhsgref_acc_zendl",
 	"hlc_optic_pvs4fal",
 	"hlc_optic_suit",
+	"rhsusf_acc_LEUPOLDMK4_d",
+	"rhsusf_acc_harris_swivel",
+	"rhsusf_acc_m24_muzzlehider_d",
 	"hlc_optic_pvs4g3"
 ];
 
