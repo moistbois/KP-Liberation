@@ -134,7 +134,7 @@ KPLIB_objectInits = [
     [
         ["rhsgref_hidf_helipilot"],
         {
-            _this allowDamage  true;
+            _this allowDamage true;
         },
     ],
     

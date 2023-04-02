@@ -168,6 +168,7 @@ buildings = [
 	["Land_Garbage_square5_F",0,0,0],
 	["Land_GarbageBags_F",0,0,0],
 	["Land_Garbage_square3_F",0,0,0],
+	["GunrackTK_EP1",0,0,0],
 	["Land_HumanSkull_F",0,0,0],
 	["Land_PalmTotem_02_F",0,0,0],
 	["plp_bo_BottleGin",0,0,0],
