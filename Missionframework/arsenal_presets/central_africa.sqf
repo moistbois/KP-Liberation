@@ -128,6 +128,9 @@ GRLIB_arsenal_magazines = [
     //SVD
     "rhs_10Rnd_762x54mmR_7N1",
     "rhs_10Rnd_762x54mmR_7N14",
+	//M24
+	"rhsusf_5Rnd_762x51_m118_special_Mag",
+	"rhsusf_5Rnd_762x51_m993_Mag",
 	//RPG7
 	"rhs_rpg7_PG7VL_mag",
 	"rhs_rpg7_TBG7V_mag",
@@ -372,6 +375,7 @@ GRLIB_arsenal_items = [
 	"rhs_tr8_periscope",
 	"rhs_tr8_periscope_pip",
 	"rhssaf_zrak_rd7j",
+	"ACE_Yardage450",                                               // Yardage 450
 // Extra
 	"ItemMap",
 	"ItemGPS",
@@ -385,6 +389,9 @@ GRLIB_arsenal_items = [
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
 // ACE items
+	"ACE_artilleryTable",                                           // Artillery Rangetable
+	"ACE_RangeCard",                                                // Range Card
+	"ACE_RangeTable_82mm",                                          // 82 mm Rangetable
 	"ACE_Banana",
 	"ACE_DefusalKit",
 	"ACE_Flashlight_XL50",
@@ -403,6 +410,7 @@ GRLIB_arsenal_items = [
 	"rhsgref_acc_zendl",
 	"hlc_optic_pvs4fal",
 	"hlc_optic_suit",
+	"rhsusf_acc_M8541_d",
 	"rhsusf_acc_LEUPOLDMK4_d",
 	"rhsusf_acc_harris_swivel",
 	"rhsusf_acc_m24_muzzlehider_d",
