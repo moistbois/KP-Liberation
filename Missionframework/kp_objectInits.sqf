@@ -137,12 +137,6 @@ KPLIB_objectInits = [
             _this setVariable ["ace_isRepairFacility", 1, true];
         }
     ],
-
-	//Add radio to enemies
-    [
-        [GRLIB_side_enemy], 
-        {_this addItem "TFAR_pnr1000a";}
-    ],
 	
     // Disable GPS tracking
     [
