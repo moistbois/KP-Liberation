@@ -24,8 +24,6 @@ if (KPPLM_CBA && KP_liberation_playermenu) then {
 
 //[] execVM "disableThermals.sqf";
 
-[] execVM "RYD_FFE\FFE.sqf";
-
 RydFFE_Debug = True;
 RydFFE_ShellView = true;
 RydFFE_FO = [FO1,FO2,FO3];
@@ -35,6 +33,7 @@ RydFFE_Acc = 4;
 RydFFE_Interval = 25;
 RydFFE_FOAccGain = 1;
 RydFFE_ArtyShells = 3;
+[] execVM "RYD_FFE\FFE.sqf";
 
 [] call compileFinal preprocessFileLineNumbers "scripts\shared\init_shared.sqf";
 
