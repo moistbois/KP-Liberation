@@ -138,12 +138,6 @@ KPLIB_objectInits = [
         }
     ],
 
-	//Add radio to enemies
-    [
-        ["LOP_AFR_OFR_Infantry_IED", "LOP_AFR_OFR_Infantry_GL", "LOP_AFR_OFR_Infantry_Rifleman_4", "LOP_AFR_OFR_Infantry_Rifleman", "LOP_AFR_OFR_Infantry_Rifleman_5", "LOP_AFR_OFR_Infantry_Rifleman_2", "LOP_AFR_OFR_Infantry_Rifleman_7", "LOP_AFR_OFR_Infantry_AR_2", "LOP_AFR_OFR_Infantry_Rifleman_8", "LOP_AFR_OFR_Infantry_AR", "LOP_AFR_OFR_Infantry_AT", "LOP_AFR_OFR_Infantry_Marksman", "LOP_AFR_OFR_Infantry_Rifleman_6", "LOP_AFR_OFR_Infantry_AR_Asst_2", "LOP_AFR_OFR_Infantry_AR_Asst", "LOP_AFR_Driver", "LOP_AFR_OFR_Infantry_SL"], 
-        {_this linkItem "TFAR_pnr1000a";}
-    ],
-
     // Delete pilots on eject (for Chongo, so pls comment out for other missions)
     [
         ["LOP_TKA_Infantry_Pilot", "rhs_pilot_combat_heli", "B_Helipilot_F", "rhsgref_hidf_helipilot"],
