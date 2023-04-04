@@ -22,48 +22,67 @@ if (isNil ("RydFFE_ShellView")) then {RydFFE_ShellView = false};
 if (isNil ("RydFFE_FOAccGain")) then {RydFFE_FOAccGain = 1};
 if (isNil ("RydFFE_FOClass")) then {RydFFE_FOClass =
 	[
-	"i_spotter_f",
-	"o_spotter_f",
-	"b_spotter_f",
-	"o_recon_jtac_f",
-	"b_recon_jtac_f",
-	"i_sniper_f",
-	"o_sniper_f",
-	"b_sniper_f",
-	"i_soldier_m_f",
-	"o_soldier_m_f",
+	"armscor_landrover_sadf_i",
+	"armscor_rooivalk_i"
+	"lop_afr_opf_btr60",
+	"lop_afr_opf_landrover_m2",
+	"lop_afr_opf_landrover_spg9",
+	"lop_afr_opf_nissan_pkm",
+	"lop_afr_opf_offroad_m2",
+	"lop_afr_opf_t55",
+	"lop_afr_opf_t72bb",
+	"lop_afr_opf_truck",
+	"lop_am_opf_uaz_dshkm",
+	"lop_tka_mi24v_at",
+	"lop_tka_mi24v_upk23",
+	"lop_tka_mi8mtv3_fab",
+	"lop_tka_mi8mt_cargo", 
+	"rhs_mi24p_vvs",
+	"rhs_mi24v_vvs",
+	"rhs_ural_open_msv_01",
 	"b_g_soldier_m_f",
-	"b_soldier_m_f",
-	"o_recon_m_f",
+	"b_recon_jtac_f",
 	"b_recon_m_f",
-	"o_soldieru_m_f",
+	"b_sniper_f",
+	"b_soldier_m_f",
+	"b_spotter_f",
+	"b_uav_01_f",
+	"b_uav_02_cas_f",
+	"b_uav_02_f"
+	"i_sniper_f",
+	"i_soldier_m_f",
+	"i_spotter_f",
 	"i_uav_01_f",
 	"i_uav_02_cas_f",
 	"i_uav_02_f",
+	"lop_afr_driver",
+	"lop_afr_ofr_infantry_ar",
+	"lop_afr_ofr_infantry_ar_2",
+	"lop_afr_ofr_infantry_ar_asst",
+	"lop_afr_ofr_infantry_ar_asst_2",
+	"lop_afr_ofr_infantry_at",
+	"lop_afr_ofr_infantry_gl",
+	"lop_afr_ofr_infantry_ied",
+	"lop_afr_ofr_infantry_marksman",
+	"lop_afr_ofr_infantry_rifleman",
+	"lop_afr_ofr_infantry_rifleman_2",
+	"lop_afr_ofr_infantry_rifleman_4",
+	"lop_afr_ofr_infantry_rifleman_5",
+	"lop_afr_ofr_infantry_rifleman_6",
+	"lop_afr_ofr_infantry_rifleman_7",
+	"lop_afr_ofr_infantry_rifleman_8",
+	"lop_afr_ofr_infantry_sl",
+	"o_recon_jtac_f",
+	"o_recon_m_f",
+	"o_sniper_f",
+	"o_soldier_m_f",
+	"o_soldieru_m_f",
+	"o_spotter_f",
 	"o_uav_01_f",
 	"o_uav_02_cas_f",
 	"o_uav_02_f",
-	"b_uav_01_f",
-	"b_uav_02_cas_f",
-	"b_uav_02_f",
-	"LOP_AFR_OFR_Infantry_IED",
-	"LOP_AFR_OFR_Infantry_GL",
-	"LOP_AFR_OFR_Infantry_GL",
-	"LOP_AFR_OFR_Infantry_Rifleman_4",
-	"LOP_AFR_OFR_Infantry_Rifleman",
-	"LOP_AFR_OFR_Infantry_Rifleman_5",
-	"LOP_AFR_OFR_Infantry_Rifleman_2",
-	"LOP_AFR_OFR_Infantry_Rifleman_7",
-	"LOP_AFR_OFR_Infantry_AR_2",
-	"LOP_AFR_OFR_Infantry_Rifleman_8",
-	"LOP_AFR_OFR_Infantry_AR",
-	"LOP_AFR_OFR_Infantry_AT",
-	"LOP_AFR_OFR_Infantry_Marksman",
-	"LOP_AFR_OFR_Infantry_Rifleman_6",
-	"LOP_AFR_OFR_Infantry_AR_Asst_2",
-	"LOP_AFR_OFR_Infantry_AR_Asst",
-	"LOP_AFR_Driver",
-	"LOP_AFR_OFR_Infantry_SL"
+	"rhsgref_ins_zsu234",
+	"rhssaf_army_o_ural_open",
 	]};
 
 if (isNil "RydFFE_Add_SPMortar") then {RydFFE_Add_SPMortar = []};
@@ -72,9 +91,9 @@ if (isNil "RydFFE_Add_Rocket") then {RydFFE_Add_Rocket = []};
 if (isNil "RydFFE_Add_Other") then {RydFFE_Add_Other = []};
 if (isNil "RydFFE_IowaMode") then {RydFFE_IowaMode = false};
 
-RydFFE_SPMortar = ["o_mbt_02_arty_f","b_mbt_01_arty_f"] + RydFFE_Add_SPMortar; // Self Propelled
-RydFFE_Mortar = ["i_mortar_01_f","o_mortar_01_f","b_g_mortar_01_f","rhs_D30_msv","rhs_D30_at_msv","rhs_2b14_82mm_msv","b_mortar_01_f"] + RydFFE_Add_Mortar; // Standard Mortar
-RydFFE_Rocket = ["b_mbt_01_mlrs_f"] + RydFFE_Add_Rocket; // Rocket Arty
+RydFFE_SPMortar = ["o_mbt_02_arty_f","b_mbt_01_arty_f"] + RydFFE_Add_SPMortar;
+RydFFE_Mortar = ["i_mortar_01_f","o_mortar_01_f","b_g_mortar_01_f","b_mortar_01_f"] + RydFFE_Add_Mortar;
+RydFFE_Rocket = ["b_mbt_01_mlrs_f"] + RydFFE_Add_Rocket;
 RydFFE_Other = [] + RydFFE_Add_Other;
 
 _allArty = RydFFE_SPMortar + RydFFE_Mortar + RydFFE_Rocket;
