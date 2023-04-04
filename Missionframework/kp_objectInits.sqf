@@ -112,6 +112,20 @@ KPLIB_objectInits = [
         true
     ],
 
+    // Delete pilots on eject (for Chongo, so pls comment out for other missions)
+    [
+        ["LOP_TKA_Infantry_Pilot", "rhs_pilot_combat_heli", "B_Helipilot_F", "rhsgref_hidf_helipilot"],
+        {
+            _this addEventHandler ["GetOutMan", {
+			params ["_unit", "_role", "_vehicle", "_turret"];
+			if (_vehicle isKindOf "Air" && damage _vehicle >= 0.9) then{
+				_unit setDamage 1;        
+		};
+        }
+    ],
+
+}];
+
     // Add valid vehicles to support module, if system is enabled
     [
         KP_liberation_suppMod_artyVeh,
