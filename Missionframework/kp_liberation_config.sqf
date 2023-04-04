@@ -218,7 +218,7 @@ KP_liberation_production_interval = 30;                                 // Time 
 
 GRLIB_sector_size = 1000;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
-GRLIB_defended_buildingpos_part = 0.0;                                  // Multiplier for defenders in buildings.
+GRLIB_defended_buildingpos_part = 0.2;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 1200;                                       // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
@@ -691,7 +691,8 @@ KPLIB_transportConfigs = [
     ["rhs_kamaz5350_flatbed_vdv", -4.5, [0,0.67,-0.4], [0,-0.88,-0.4], [0,-2.43,-0.4]],
     ["rhs_kamaz5350_open_vdv", -4.5, [0,0.67,-0.4], [0,-0.88,-0.4], [0,-2.43,-0.4]],
     ["rhs_kamaz5350_vdv", -4.5, [0,0.67,-0.4], [0,-0.88,-0.4], [0,-2.43,-0.4]],
-    ["RHS_Ural_Civ_03", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
+    ["rhssaf_army_o_ural_open", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
+	["RHS_Ural_Civ_03", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["RHS_Ural_MSV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["RHS_Ural_Open_Civ_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
     ["RHS_Ural_Open_Civ_03", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
