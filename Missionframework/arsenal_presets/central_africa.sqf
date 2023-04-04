@@ -157,7 +157,16 @@ GRLIB_arsenal_magazines = [
 	"rhs_mag_rgo",
 	"rhs_mag_f1",
 	"rhs_mag_rgd5",
+	"Chemlight_red",
+	"ACE_Chemlight_White",
+	"SmokeShellBlue",
+	"SmokeShellGreen",
+	"SmokeShellOrange",
+	"SmokeShellPurple",
+	"SmokeShellRed",
+	"SmokeShellYellow",
 	//Explosives
+	"ATMine_Range_Mag",
 	"rhs_ec75_mag",
 	"rhs_ec75_sand_mag",
 	"rhs_ec200_mag",
@@ -389,6 +398,9 @@ GRLIB_arsenal_items = [
 	"TFAR_microdagr",
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
+	"ACE_Flashlight_XL50",
+	"ACE_microDAGR",
+	"ACE_UAVBattery",
 // ACE items
 	"ACE_artilleryTable",                                           // Artillery Rangetable
 	"ACE_RangeCard",                                                // Range Card
