@@ -85,6 +85,7 @@ militia_vehicles = [
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
+    "O_UAV_01_F",													 // AR-2 Drone CSAT
 	"LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
 	"LOP_AFR_OPF_Nissan_PKM",                                          // Nissan (PKM)
 	"LOP_AFR_OPF_Landrover_M2",                                        // Land Rover (M2)
@@ -207,10 +208,7 @@ opfor_troup_transports = [
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "LOP_TKA_Mi24V_AT",                                                 // Mi-24T (AT)
-	"LOP_TKA_Mi24V_UPK23",                                               // Mi-24V (UPK)
-	"LOP_TKA_Mi8MTV3_FAB",                                              // Mi-8MTV-3 (FAB)
-	"O_UAV_01_F",													 // AR-2 Drone CSAT
+    "O_UAV_01_F",													 // AR-2 Drone CSAT
 	"LOP_TKA_Mi8MT_Cargo",											// Mi-8MT (Cargo)
 	"RHS_Mi24P_vvs",                                              // MI-24P (GSh-30-2k/S8 KOM)
 	"RHS_Mi24V_vvs", 											//MI-24V (S-8 KOM and DF and a YakB-12.7)
