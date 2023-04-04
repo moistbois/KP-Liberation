@@ -11,22 +11,19 @@
 - [ ] Disable TI, NV, and tracking
 
 ### For Doxus:
-- [ ] FFE implementation via Init.sqf (commented out). Refer to #Arty Setup
-Use this for reference?:
-- https://www.dropbox.com/s/wrnxfaa44fenqyx/FFE%201.17.zip?dl=0&file_subpath=%2FFFE+1.17%2FFFE+1.17.pdf
-- https://github.com/Pi123263/KP-Liberation/blob/master/init.sqf
-- https://github.com/Pi123263/KP-Liberation/blob/master/RYD_FFE/FFE.sqf
-- https://github.com/Pi123263/KP-Liberation/blob/master/RYD_FFE/FFE_fnc.sqf
-- https://github.com/Pi123263/KP-Liberation/blob/master/RYD_FFE/Shellview.sqf
-
 - [ ] Implement multiple spawn points
 -https://github.com/KillahPotatoes/KP-Liberation/issues/183#issuecomment-318406884
+Use the following spawns:
+- RHS_Ural_MSV_01
+- RHS_Ural_Open_Civ_01
+- ARMSCor_Landrover_SADF_I
+- LOP_AFR_Landrover
+- RHS_Ural_Open_MSV_01
+- rhs_gaz66_vmf
+- rhs_uh1h_hidf_unarmed
+- RHS_AN2
 
 ### Playthrough Notes:
-###### Build:
-- Add campfire
-- add chairs
-- remove huge tower
 ###### Etc
 - Artillery still pops up when spawning. Why?
 ###### Arsenal
@@ -34,9 +31,11 @@ Use this for reference?:
 - Check mods and server list so shit runs on the server
 - Add sleep at tent
 #### NewFixes:
-- Add MSP Ural to transports
-- Check why pilots are immportal XD
+Replace FN MAG with heavy boy
+
 https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework.html
+
+
 
 
 #### Arty Setup
