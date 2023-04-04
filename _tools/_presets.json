@@ -49,7 +49,8 @@
             "KP_liberation_cr_vehicle_penalty": 5,
             "KP_liberation_cr_resistance_penalty": 5,
             "KP_liberation_cr_wounded_chance": 1,
-            "KP_liberation_cr_wounded_gain": 1
+            "KP_liberation_cr_wounded_gain": 1,
+            "GRLIB_defended_buildingpos_part": 0.2
         },
         "workshopId": ""        
     },

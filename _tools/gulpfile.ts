@@ -60,7 +60,7 @@ for (let preset of presets) {
                 const variables = Object.getOwnPropertyNames(preset.variables);
                 for (let variable of variables) {
                     // https://regex101.com/r/YknC8r/1
-                    const regex = new RegExp(`(${variable} += +)(?:\\d+|".+")`, 'ig');
+                    const regex = new RegExp(`(${variable} += +)(?:\\d*[,.]?\\d+|".+")`, 'ig');
                     const value = JSON.stringify(preset.variables[variable]);
 
                     // replace variable value
