@@ -6,9 +6,8 @@
 - [x] LAMBS Settings testing
 - [x] Final map pass
 - [x] Create FOB Templates
-- [ ] Extra spot at 098049
-- [ ] Hook cellphone into Init.sqf
-- [ ] Disable TI, NV, and tracking
+- [x] Hook cellphone into Init.sqf - Cellphone sucks lmao
+- [ ] Disable TI, NV, and tracking - Cannot get this to work at all.
 
 ### For Doxus:
 - [ ] Implement multiple spawn points
@@ -25,7 +24,7 @@ Use the following spawns:
 
 ### Playthrough Notes:
 ###### Etc
-- Artillery still pops up when spawning. Why?
+- Artillery still pops up when spawning. Why? - Seems to be related to the way it needs to spawn.
 ###### Arsenal
 ###### Server Config
 - Check mods and server list so shit runs on the server
