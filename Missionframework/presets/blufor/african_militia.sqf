@@ -17,7 +17,7 @@ FOB_typename = "Land_Slum_House02_F";                                    // This
 FOB_box_typename = "Base_WarfareBContructionSite";                            // This is the FOB as a container.
 FOB_truck_typename = "LOP_CDF_KAMAZ_Covered";                              // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "RHS_Ural_MSV_01";                           // This is the mobile respawn (and medical) truck.
+Respawn_truck_typename = ["RHS_Ural_MSV_01", "RHS_Ural_Open_Civ_03"];                           // This is the mobile respawn (and medical) truck.
 huron_typename = "RHS_Ural_Open_Civ_01";                                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "LOP_AFRCiv_Driver";                          // This defines the crew for vehicles.
 pilot_classname = "LOP_AFR_Driver";                              // This defines the pilot for helicopters.
@@ -250,7 +250,8 @@ buildings = [
 
 support_vehicles = [
     [Arsenal_typename,100,200,0],
-    [Respawn_truck_typename,200,0,100],
+    [(Respawn_truck_typename select 0),200,0,100],
+    [(Respawn_truck_typename select 1),200,0,100],
     [FOB_box_typename,300,500,0],
     [FOB_truck_typename,300,500,75],
     [KP_liberation_small_storage_building,0,0,0],

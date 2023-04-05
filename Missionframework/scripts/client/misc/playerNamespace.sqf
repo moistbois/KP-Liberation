@@ -2,7 +2,7 @@
     File: playerNamespace.sqf
     Author: KP Liberation Dev Team - https://github.com/KillahPotatoes
     Date: 2020-04-12
-    Last Update: 2020-05-08
+    Last Update: 2023-04-05
     License: MIT License - http://www.opensource.org/licenses/MIT
 
     Description:
@@ -49,7 +49,7 @@ while {true} do {
 
     // Is near a mobile respawn
     if (KP_liberation_mobilerespawn) then {
-        player setVariable ["KPLIB_isNearMobRespawn", !((player nearEntities [[Respawn_truck_typename, huron_typename], 10]) isEqualTo [])];
+        player setVariable ["KPLIB_isNearMobRespawn", !((player nearEntities [(Respawn_truck_typename) + [huron_typename], 10]) isEqualTo [])];
     };
 
     // Is near startbase
