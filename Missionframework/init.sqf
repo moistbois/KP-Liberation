@@ -24,16 +24,46 @@ if (KPPLM_CBA && KP_liberation_playermenu) then {
 
 //[] execVM "disableThermals.sqf";
 
-RydFFE_Debug = True;
+RydFFE_Debug = true;
 RydFFE_ShellView = true;
-RydFFE_FO = [FO1,FO2,FO3];
-RydFFE_Safe = 50;
-RydFFE_OnePhase = false;
-RydFFE_Acc = 4;
-RydFFE_Interval = 25;
-RydFFE_FOAccGain = 1;
-RydFFE_ArtyShells = 3;
-[] execVM "RYD_FFE\FFE.sqf";
+RydFFE_ArtyShells = 5;
+RydFFE_Amount = 2;
+RydFFE_Safe = (50);
+RydFFE_FOClass = ([
+"lop_afr_opf_infantry_sl",
+"lop_afr_opf_infantry_gl",
+"lop_afr_opf_infantry_ar",
+"lop_afr_opf_infantry_ar_2",
+"lop_afr_opf_infantry_ar_asst",
+"lop_afr_opf_infantry_ar_asst_2",
+"lop_afr_opf_infantry_at",
+"lop_afr_opf_infantry_corpsman",
+"lop_afr_opf_infantry_ied",
+"lop_afr_opf_infantry_marksman",
+"lop_afr_opf_infantry_rifleman",
+"lop_afr_opf_infantry_rifleman_4",
+"lop_afr_opf_infantry_rifleman_6",
+"lop_afr_opf_infantry_rifleman_7",
+"lop_afr_opf_infantry_rifleman_gl",
+"armscor_rifleman_sadf_i",
+"b_helipilot_f",
+"lop_afr_opf_infantry_driver",
+"lop_am_opf_infantry_rifleman",
+"lop_tka_infantry_pilot",
+"rhs_pilot_combat_heli",
+"rhs_msv_rifleman",
+"rhs_msv_sergeant",
+"rhsgref_ins_crew",
+"rhssaf_army_o_m93_oakleaf_summer_crew"
+]);
+RydFFE_Add_Other = 
+    [
+    [["rhs_d30_msv"],["rhs_mag_3of56_10","rhs_mag_3of56_10","rhs_mag_3of56_10","rhs_mag_3of69m_2","rhs_mag_d462_2"]],
+	[["rhs_D30_at_msv"],["rhs_mag_of462_direct","rhs_mag_of462_direct","rhs_mag_bk6m",""]],
+    [["rhs_2b14_82mm_msv"],["rhs_mag_3vo18_10","rhs_mag_3vo18_10","","rhs_mag_3vs25m_10","rhs_mag_d832du_10"]]
+    ];
+
+nul = [] execVM "RYD_FFE\FFE.sqf";
 
 [] call compileFinal preprocessFileLineNumbers "scripts\shared\init_shared.sqf";
 
@@ -76,4 +106,4 @@ if (isServer) then {
     publicVariable "KPLIB_initServer";
 };
 
-setTerrainGrid 25;
+
