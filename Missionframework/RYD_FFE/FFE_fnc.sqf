@@ -957,8 +957,8 @@ RYD_CFF_FFE =
 			_i setMarkerColor "ColorBlack";
 			_i setMarkerShape "ICON";
 			_i setMarkerType "mil_circle";
-			_i setMarkerSize [0.4,0.4];
-			_i setMarkerText ("Firing battery - " + _text);
+			_i setMarkerSize [0.9,0.9];
+			_i setMarkerText ("Artillery Detected");
 			
 			_markers pushBack _i;
 			
