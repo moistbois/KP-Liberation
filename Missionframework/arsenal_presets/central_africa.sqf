@@ -207,7 +207,7 @@ GRLIB_arsenal_items = [
 	"rhs_tsh4_ess",
 	"rhs_tsh4_ess_bala",
 	"rhs_altyn",
-	"rhs_altyn_bala",
+	"rhs_altyn_visordown",
 	"H_Bandanna_gry",
 	"H_Bandanna_blu",
 	"H_Bandanna_cbr",
