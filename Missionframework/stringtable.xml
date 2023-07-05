@@ -539,8 +539,50 @@
             <Korean>전초기지 설치차량</Korean>
             <Czech>FOB Náklaďák</Czech>
         </Key>
-        <Key ID="STR_RESPAWN_TRUCK">
+		<Key ID="STR_RESPAWN_POINT">
             <Original>Mobile respawn</Original>
+            <French>Respawn mobile</French>
+            <German>Mobiler Respawn</German>
+            <Spanish>Respawn móvil</Spanish>
+            <Russian>Мобильная КШМ</Russian>
+            <Italian>Respawn Mobile</Italian>
+            <Chinesesimp>机动复活载具</Chinesesimp>
+            <Chinese>機動復活載具</Chinese>
+            <Turkish>Respawn Aracı</Turkish>
+            <Portuguese>Respawn móvel</Portuguese>
+            <Korean>재투입차량</Korean>
+            <Czech>Mobilní respawn</Czech>
+        </Key>
+        <Key ID="STR_RESPAWN_TRUCK">
+            <Original>Mobile Truck Respawn</Original>
+            <French>Respawn mobile</French>
+            <German>Mobiler Respawn</German>
+            <Spanish>Respawn móvil</Spanish>
+            <Russian>Мобильная КШМ</Russian>
+            <Italian>Respawn Mobile</Italian>
+            <Chinesesimp>机动复活载具</Chinesesimp>
+            <Chinese>機動復活載具</Chinese>
+            <Turkish>Respawn Aracı</Turkish>
+            <Portuguese>Respawn móvel</Portuguese>
+            <Korean>재투입차량</Korean>
+            <Czech>Mobilní respawn</Czech>
+        </Key>
+		<Key ID="STR_RESPAWN_BOAT">
+            <Original>Mobile Boat Respawn</Original>
+            <French>Respawn mobile</French>
+            <German>Mobiler Respawn</German>
+            <Spanish>Respawn móvil</Spanish>
+            <Russian>Мобильная КШМ</Russian>
+            <Italian>Respawn Mobile</Italian>
+            <Chinesesimp>机动复活载具</Chinesesimp>
+            <Chinese>機動復活載具</Chinese>
+            <Turkish>Respawn Aracı</Turkish>
+            <Portuguese>Respawn móvel</Portuguese>
+            <Korean>재투입차량</Korean>
+            <Czech>Mobilní respawn</Czech>
+        </Key>
+		<Key ID="STR_RESPAWN_HELI">
+            <Original>Mobile Aircraft Respawn</Original>
             <French>Respawn mobile</French>
             <German>Mobiler Respawn</German>
             <Spanish>Respawn móvil</Spanish>
@@ -6742,8 +6784,16 @@
             <Korean>(ESC 키를 누르면 나갈 수 있습니다.)</Korean>
             <Czech>(Stisknutím klávesy ESC ukončete program)</Czech>
         </Key>
-        <Key ID="STR_CLEARANCE_ACTION">
-            <Original>-- Clear FOB area</Original>
+        <Key ID="STR_BIG_CLEARANCE_ACTION">
+            <Original>-- Clear large FOB area</Original>
+            <Spanish>-- Limpiar área de FOB</Spanish>
+            <Russian>-- Очистить зону FOB</Russian>
+            <German>-- FOB Gebiet räumen</German>
+            <Korean>-- 전초기지 주변 정리</Korean>
+            <Czech>-- Vymazat zónu FOB</Czech>
+        </Key>
+		<Key ID="STR_SMALL_CLEARANCE_ACTION">
+            <Original>-- Clear small FOB area</Original>
             <Spanish>-- Limpiar área de FOB</Spanish>
             <Russian>-- Очистить зону FOB</Russian>
             <German>-- FOB Gebiet räumen</German>
