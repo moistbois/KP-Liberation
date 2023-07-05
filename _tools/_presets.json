@@ -54,6 +54,28 @@
         },
         "workshopId": ""        
     },
+	{
+        "sourceFolder": "kp_liberation.lingor3",
+        "missionName": "kp_liberation",
+        "map": "lingor3",
+        "configFile": "kp_liberation_config.sqf",
+        "variables": {
+            "KP_liberation_preset_blufor": 32,
+            "KP_liberation_preset_opfor": 22,
+            "KP_liberation_preset_resistance": 9,
+            "KP_liberation_preset_civilians": 8,
+            "KP_liberation_arsenal": 18,
+			"GRLIB_surrender_chance": 25,
+            "KP_liberation_cr_building_penalty": 3,
+            "KP_liberation_cr_vehicle_penalty": 5,
+            "KP_liberation_cr_resistance_penalty": 5,
+            "KP_liberation_cr_wounded_chance": 5,
+            "KP_liberation_cr_wounded_gain": 20,
+            "GRLIB_defended_buildingpos_part": 0.3,
+			"GRLIB_radiotower_size": 800
+        },
+        "workshopId": ""        
+    },
     {
         "sourceFolder": "kp_liberation_devkit.VR",
         "missionName": "kp_liberation_devkit",
