@@ -25,10 +25,11 @@ if (KPPLM_CBA && KP_liberation_playermenu) then {
 //[] execVM "disableThermals.sqf";
 
 RydFFE_Debug = true;
-RydFFE_ShellView = true;
+RydFFE_ShellView = false;
 RydFFE_ArtyShells = 5;
 RydFFE_Amount = 2;
-RydFFE_Safe = (50);
+RydFFE_FOAccGain = 4;
+RydFFE_Safe = (60);
 RydFFE_FOClass = ([
 "lop_afr_opf_infantry_sl",
 "lop_afr_opf_infantry_gl",
