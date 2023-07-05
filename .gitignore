@@ -58,3 +58,4 @@ kp_steam*.log
 # Gulp
 /**/package-lock.json
 _tools/package-lock.json
+*.bak
