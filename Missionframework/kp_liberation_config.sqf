@@ -113,7 +113,8 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 28 = SFP (Woodland)
 29 = SFP (Desert)
 30 = LDF (Contact DLC) 
-31 = Project OPFOR African Militia ("better equipped")*/
+31 = Project OPFOR African Militia ("better equipped")
+32 = Lingor Resistencia*/
 KP_liberation_preset_blufor = 0;
 
 /* OPFOR preset:
@@ -138,7 +139,8 @@ KP_liberation_preset_blufor = 0;
 18 = CUP Chernarus Defense Force
 19 = CUP British Armed Forces (Desert)
 20 = CUP British Armed Forces (Woodland) 
-21 = Project OPFOR African Militia ("better equipped")*/
+21 = Project OPFOR African Militia ("better equipped")
+22 = Lingor Revolucion*/
 KP_liberation_preset_opfor = 0;
 
 /* Resistance preset:
@@ -150,7 +152,8 @@ KP_liberation_preset_opfor = 0;
 5  = Germany (Global Mobilization)
 6  = Unsung
 7  = CUP Takistani Locals
-8  = CUP National Party of Chernarus */
+8  = CUP National Party of Chernarus 
+9  = Lingor*/
 KP_liberation_preset_resistance = 0;
 
 /* Civilians preset:
@@ -161,7 +164,8 @@ KP_liberation_preset_resistance = 0;
 4  = Germany (Global Mobilization)
 5  = Unsung
 6  = CUP Takistani Civilians
-7  = CUP Chernarussian Civilians */
+7  = CUP Chernarussian Civilians
+8  = Civilians (Lingor)*/
 KP_liberation_preset_civilians = 0;
 
 /* Which arsenal preset should be used?
@@ -262,6 +266,7 @@ KP_liberation_resistance_ambush_chance = 25;                            // Chanc
 KP_liberation_battlegroup_clearance = [
     "song_bin_tanh",
 	"khe_sanh",
+	"lingor3",
     "Cam_Lao_Nam"
 ];
 
@@ -286,7 +291,7 @@ KP_liberation_suppMod_whitelist = [
 /* Array of radio tower classnames to place at radio tower sectors.
 If more than one is added, it'll be selected random for each sector on campaign start. */
 KPLIB_radioTowerClassnames = [
-    "Land_Communication_F"
+    "TFAR_Land_Communication_F"
 ];
 
 /* - Default arsenal blacklist method.
@@ -754,6 +759,7 @@ KPLIB_transportConfigs = [
     ["uns_m37b1", -5, [0,-1.8,0.15]],
     ["uns_nvatruck_mg", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
     ["uns_nvatruck_open", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
+	["B_LINGOR_Unimog_Transport", -5, [-0.0495605,-0.609863,-0.6], [0.147461,-2.06787,-0.6]],
     ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]]
 ];
 
@@ -966,6 +972,7 @@ boats_names = [
     "uns_PBR_M10",
     "uns_pbr_mk18",
     "uns_pbr",
+	"rhsgref_hidf_rhib",
     "UNS_Zodiac_W"
 ];
 
