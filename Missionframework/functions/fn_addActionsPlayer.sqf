@@ -297,10 +297,28 @@ if (player == ([] call KPLIB_fnc_getCommander)) then {
     ];
 };
 
-// Create FOB clearance
-_player addAction [
-    ["<t color='#FFFF00'>", localize "STR_CLEARANCE_ACTION", "</t>"] joinString "",
-    {[player getVariable ["KPLIB_fobPos", [0, 0, 0]], GRLIB_fob_range * 0.9, true] call KPLIB_fnc_createClearanceConfirm;},
+// Create small FOB clearance
+    _player addAction [
+    ["<t color='#FFFF00'>", localize "STR_SMALL_CLEARANCE_ACTION", "</t>"] joinString "",
+    {[player getVariable ["KPLIB_fobPos", [0, 0, 0]], GRLIB_fob_range * 0.4, true] call KPLIB_fnc_createClearanceConfirm;},
+    nil,
+    -850,
+    false,
+    true,
+    "",
+    "
+        _originalTarget getVariable ['KPLIB_hasDirectAccess', false]
+        && {isNull (objectParent _originalTarget)}
+        && {alive _originalTarget}
+        && {_originalTarget getVariable ['KPLIB_fobDist', 99999] < (GRLIB_fob_range * 0.4)}
+        && {build_confirmed isEqualTo 0}
+    "
+	];
+
+// Create bog FOB clearance
+	_player addAction [
+    ["<t color='#FFFF00'>", localize "STR_BIG_CLEARANCE_ACTION", "</t>"] joinString "",
+    {[player getVariable ["KPLIB_fobPos", [0, 0, 0]], GRLIB_fob_range * 0.4, true] call KPLIB_fnc_createClearanceConfirm;},
     nil,
     -850,
     false,
