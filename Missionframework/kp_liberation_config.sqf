@@ -53,7 +53,9 @@ KP_liberation_medical_vehicles = [
     "uns_ch47a_medevac",
     "uns_H13_medevac_CAV",
     "uns_M577_amb",
-    "uns_uh1D_med"
+    "uns_uh1D_med",
+    "vn_b_air_uh1d_01_01",
+    "vn_b_wheeled_m54_repair_airport"						 
 ];
 
 // Building classnames which also function as ACE medical facilities.
@@ -64,6 +66,15 @@ KP_liberation_medical_facilities = [
 	"Land_PartyTent_01_F",
     "LAND_uns_army_med",
     "LAND_uns_tent3mash",
+    "Land_vn_tent_mash_01_01",
+    "Land_vn_tent_mash_01_02",
+    "Land_vn_tent_mash_01_03",
+    "Land_vn_tent_mash_01_04",
+    "Land_vn_tent_mash_01",
+    "Land_vn_tent_mash_02_01",
+    "Land_vn_tent_mash_02_02",
+    "Land_vn_tent_mash_02_03",
+    "Land_vn_tent_mash_02_04",
     "uns_mash_main",
     "uns_mash",
     "US_Tent_2",
@@ -222,7 +233,7 @@ KP_liberation_production_interval = 30;                                 // Time 
 
 GRLIB_sector_size = 1000;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
-GRLIB_defended_buildingpos_part = 0.0;                                  // Multiplier for defenders in buildings.
+GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 1200;                                       // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
@@ -760,7 +771,10 @@ KPLIB_transportConfigs = [
     ["uns_nvatruck_mg", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
     ["uns_nvatruck_open", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
 	["B_LINGOR_Unimog_Transport", -5, [-0.0495605,-0.609863,-0.6], [0.147461,-2.06787,-0.6]],
-    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]]
+    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
+    ["vn_b_wheeled_m54_01", -5, [0,-0.8,0.18], [0,-2.5,0.18]],
+    ["vn_b_wheeled_m54_02", -5, [0,-0.8,0.18], [0,-2.5,0.18]],
+    ["vn_o_wheeled_z157_01", -5.5, [0,-1.2,0.18], [0,-2.9,0.18]]
 ];
 
 /* Various other settings.
@@ -805,7 +819,8 @@ KPLIB_aiResupplySources = [
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
-    "uns_motorpool1_repair"
+    "uns_motorpool1_repair",
+	"vn_b_wheeled_m54_ammo"
 ];
 
 // Everything that can resupply other vehicles.
@@ -851,7 +866,8 @@ vehicle_repair_sources = [
     "UNS_Hanger_repair",
     "uns_M113_ENG",
     "uns_M35A2_repair",
-    "uns_motorpool1_repair"
+    "uns_motorpool1_repair",
+	"vn_b_wheeled_m54_repair"
 ];
 
 vehicle_rearm_sources = [
@@ -895,7 +911,8 @@ vehicle_rearm_sources = [
     "rhsusf_M977A4_AMMO_usarmy_wd",
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
-    "uns_M35A2_ammo"
+    "uns_M35A2_ammo",
+	"vn_b_wheeled_m54_ammo"
 ];
 
 vehicle_refuel_sources = [
@@ -939,7 +956,8 @@ vehicle_refuel_sources = [
     "sfp_tgb40_fuel",
     "uns_M113_ENG",
     "uns_M35A2_fuel",
-    "uns_M35A2_fueltanker"
+    "uns_M35A2_fueltanker",
+	"vn_b_wheeled_m54_fuel"
 ];
 
 // Classnames of boats, so they can be built on water.
@@ -973,7 +991,9 @@ boats_names = [
     "uns_pbr_mk18",
     "uns_pbr",
 	"rhsgref_hidf_rhib",
-    "UNS_Zodiac_W"
+    "UNS_Zodiac_W",
+	"UNS_Zodiac_W",
+    "vn_b_boat_05_01"
 ];
 
 // Classnames of artillery vehicles, which should be added to the support module
@@ -1096,12 +1116,20 @@ KP_liberation_suppMod_artyVeh = [
     "uns_M2_60mm_mortar_pvp",
     "uns_M2_60mm_mortar",
     "uns_M30_107mm_mortar",
-    "uns_Type55_mortar"
+    "uns_Type55_mortar",
+	"vn_b_army_static_mortar_m2",
+    "vn_b_army_static_mortar_m29"							 
 ];
 
 // Objects which are spawned as intel objects for pickup
 KPLIB_intelObjectClasses = [
     "Land_File_research_F",
+	"Land_File1_F",
+	"Land_FilePhotos_F",
+	"Land_File2_F",
+	"UMI_Item_Weed_Bale",
+	"UMI_Item_Cocaine_Brick",
+	"UMI_Item_Land_Camera_F",
     "Land_Document_01_F"
 ];
 
@@ -1122,6 +1150,28 @@ KPLIB_intelBuildingClasses = [
     "Land_MilOffices_V1_F",
     "Land_Research_house_V1_F",
     "Land_Research_HQ_F",
+	"Land_Ind_Workshop01_03",
+	"Land_Army_hut3_long_int",
+	"Land_Ind_Workshop01_L",
+	"Land_Offices_01_V1_F",
+	"Land_Cargo_Tower_V1_No1_F",
+	"Land_Cargo_Tower_V1_No2_F",
+	"Land_Cargo_Tower_V1_No3_F",
+	"Land_Cargo_Tower_V1_No4_F",
+	"Land_Airport_02_controlTower_F",
+	"Land_Mil_Barracks_i",
+	"Land_Mil_Barracks",
+	"Land_Mil_ControlTower",
+	"Land_Army_hut_int",
+	"Land_Army_hut2_int",
+	"Land_A_Office01",
+	"Land_Bunker_01_tall_F",
+	"Land_Bunker_01_HQ_F",
+	"Land_GuardHouse_01_F",
+	"Land_tent_east",
+	"Land_A_Stationhouse_ep1",
+	"Land_HouseV2_02_Interier",
+	"Land_Ind_Workshop01_01",
     "Land_u_Barracks_V2_F"
 ];
 
