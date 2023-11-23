@@ -1,9 +1,3 @@
-# [ORIGINAL README](KP-README.md)
+# This is an abandoned repo. All work has migrated over to the [[KP Liberation APR Fork]](https://github.com/moistbois/moist-liberation-apr/)
 
-## Missions under development:
-- [Talvivaara 1939](Missionbasefiles/kp_liberation.Talvivaara_1939/README.md)
-- SOG Khe Sanh
-- Chongo
-
-## Playable missions:
-- [Talvivaara 1939](Missionbasefiles/kp_liberation.Talvivaara_1939/README.md)
+### [ORIGINAL README](KP-README.md)
